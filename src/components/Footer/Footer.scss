@@ -1,0 +1,33 @@
+@import './../../color';
+@import './../../font-size';
+
+
+footer{
+    background-color: $dark-grey;
+    color: $white;
+    font-size: $font-size-s;
+    
+    
+    .footer-first-row, .footer-second-row{
+        padding: 16px 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        div{
+            padding: 0 16px;
+        }
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+    }
+
+    .footer-second-row{
+        background-color: $grey;
+        padding: 32px 0;
+        a, ul{
+            padding: 0 16px;
+        }
+    }
+}

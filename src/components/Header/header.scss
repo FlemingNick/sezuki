@@ -1,0 +1,56 @@
+@import './../../color';
+
+.header{
+    background-color: $dark-grey;
+    color: $white;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    align-items: stretch;
+    top: 0;
+    z-index: 10;
+    
+    .navigation, .social-media{
+        display: flex;
+        gap: 32px;
+        padding: 0;
+        margin: 0;
+        width: 250px;
+        flex-wrap: wrap;
+        flex: 1 1 0;
+        li{
+            height: 100%;
+            padding: 0 16px;
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+            
+            a{
+                color: $white;
+                height: 100%;
+                display: flex;
+                align-items: center;
+            }
+            
+            
+        }
+    }
+    .header-name{
+        font-size: 24px;
+    }
+    .social-media{
+        justify-content: flex-end;
+        gap: 16px;
+        li{
+            padding: 0;
+        }
+        .icon{
+            img{
+                width: 32px;
+            }
+        }
+    }
+}

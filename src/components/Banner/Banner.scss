@@ -1,0 +1,27 @@
+.banner{
+    background-image: url('../../../public/ink.jpg');
+    //background-position: center;
+    padding: 32px 0;
+}
+
+.focus{
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 800px;
+    div{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    p{
+        margin: 0;
+    }
+
+    .kanji{
+        font-size: 64px;
+        font-weight: 600;
+    }
+}

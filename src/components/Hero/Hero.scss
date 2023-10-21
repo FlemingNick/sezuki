@@ -1,0 +1,21 @@
+.hero-container{
+    @import './../../color';
+    
+    height: 500px;
+    background: url('../../../public/art3centered.jpg');
+    background-position-x: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    @media  (min-width: 768px) {
+        height: 85vh;
+    }
+
+    h1{
+        font-size: 64px;
+        color: $dark-grey;
+        // position: absolute;
+        // top: 32px;
+        // left: 32px;
+    }
+}
