@@ -31,8 +31,8 @@ const Footer = () => (
       <div className='content second'>
          <a href='https://www.instagram.com/fl_em_ing/'>Homepage by 式神</a>
          <ul>
-            <li><a href='#'>Imprint</a></li>
-            <li><a href='#'>Data Protection</a></li>
+            <li><a href='#about'>Imprint</a></li>
+            <li><a href='#about'>Data Protection</a></li>
          </ul>
       </div>
    </div>

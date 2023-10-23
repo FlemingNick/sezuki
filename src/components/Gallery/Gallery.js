@@ -6,7 +6,7 @@ const Gallery = () => (
  <section className='container'>
    <ul className='gallery-list'>
       {pictures.map(picture => (
-         <li className='gallery-element'><img src={picture.url}/></li>
+         <li className='gallery-element'><img src={picture.url} alt='to be replaced'/></li>
       ))}
    </ul>
    

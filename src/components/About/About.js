@@ -2,7 +2,7 @@ import React from 'react';
 import './About.scss';
 
 const About = () => (
- <section className='container'>
+ <section className='container' id='about'>
     
     <div className='wrapper'>
       <div>
@@ -19,7 +19,7 @@ const About = () => (
          </button>
       </div>
       <div>
-         <img src={process.env.PUBLIC_URL + '/sezuki.jpg'} alt='profile picture of Sezuki'/>
+         <img src={process.env.PUBLIC_URL + '/sezuki.jpg'} alt='portrait of Sezuki'/>
       </div>
     </div>
     
