@@ -5,7 +5,7 @@ const Art = () => (
  <section className='container'>
    <div className='wrapper'>
       <div>
-         <img src={process.env.PUBLIC_URL + '/art1.jpg'} alt='profile picture of Sezuki'/>
+         <img src={process.env.PUBLIC_URL + '/art1.jpg'} alt='artwork in red and white'/>
       </div>
       <div >
          <h2>Artworks</h2>
