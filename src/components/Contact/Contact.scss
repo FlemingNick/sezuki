@@ -1,0 +1,51 @@
+@import './../../color';
+
+.contact-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        gap: 8px;
+
+        input[type=text],
+        input[type=email],
+        textarea{
+            font-size: large;
+            padding: 8px;
+            border: 2px solid $grey;
+            width: 100%;
+            border-radius: 5px;
+        }
+        textarea{
+            height: 12em;
+            
+           
+        }
+        .form-element{
+            width: 100%;
+            input{
+                width: 100%;
+            }
+        }
+        .submit-element{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        p{
+            margin: 0;
+        }
+    }
+
+    .success-message{
+         width: 100%;
+         border-radius: 5px;
+         padding: 16px 8px;
+         background-color: $success;   
+    }
+}

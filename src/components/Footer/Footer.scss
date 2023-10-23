@@ -9,13 +9,23 @@ footer{
     
     
     .footer-first-row, .footer-second-row{
-        padding: 16px 0;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+        
         div{
             padding: 0 16px;
         }
+
+        .content{
+            padding: 16px 0;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            &.first{
+                max-width: 1200px;
+                margin: auto;
+            }
+        }
+
     }
 
     ul{
@@ -25,7 +35,7 @@ footer{
 
     .footer-second-row{
         background-color: $grey;
-        padding: 32px 0;
+        padding: 16px 0;
         a, ul{
             padding: 0 16px;
         }

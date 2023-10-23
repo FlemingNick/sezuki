@@ -5,6 +5,9 @@ import Footer from './components/Footer/Footer';
 import Gallery from './components/Gallery/Gallery';
 import Header from './components/Header/header';
 import Hero from './components/Hero/Hero';
+import Shop from './components/Shop/Shop';
+import Art from './components/Art/Art';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
       <About className="container"/>
       <Banner/>
       <Gallery/>
+      <Shop/>
+      <Art/>
+      <Contact/>
       <Footer/>
     </div>
   );

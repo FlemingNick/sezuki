@@ -1,0 +1,27 @@
+@import './../../color';
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    h2{
+        font-size: 36px;
+    }
+    div{
+        max-width: 584px;
+    }
+    img{
+        max-width: 584px;
+    }
+
+    .btn{
+        margin: 16px 0;
+    }
+
+    .link-wrapper{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}

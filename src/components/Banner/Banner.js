@@ -4,14 +4,14 @@ import './Banner.scss'
 const Banner = () => (
  <section className='banner'>
    <div className='focus'>
-      <div>
-         <p className='kanji'>本物</p>
-         <p>authentic</p>
-         </div>
-
          <div>
          <p className='kanji'>伝統的</p>
          <p>traditional</p>
+         </div>
+
+         <div>
+         <p className='kanji'>本物</p>
+         <p>authentic</p>
          </div>
 
          <div>
