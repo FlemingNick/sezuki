@@ -1,16 +1,32 @@
 {
   "files": {
-    "main.css": "/sezuki/static/css/main.073c9b0a.css",
-    "main.js": "/sezuki/static/js/main.26977273.js",
+    "main.css": "/sezuki/static/css/main.07b05800.css",
+    "main.js": "/sezuki/static/js/main.7879572d.js",
     "static/js/787.f863665e.chunk.js": "/sezuki/static/js/787.f863665e.chunk.js",
-    "static/media/logo.svg": "/sezuki/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Studio.jpg": "/sezuki/static/media/Studio.8952113d3b36e5efb11c.jpg",
+    "static/media/art3centered.jpg": "/sezuki/static/media/art3centered.7d5928fc7da83003cf8f.jpg",
+    "static/media/tatto2.jpg": "/sezuki/static/media/tatto2.4aa61d188b71ff926dd7.jpg",
+    "static/media/ink.jpg": "/sezuki/static/media/ink.e51ab69238bcd2850231.jpg",
+    "static/media/paint2.jpg": "/sezuki/static/media/paint2.cd1176509ea224e825fc.jpg",
+    "static/media/paint.jpg": "/sezuki/static/media/paint.7ba57303d6c586625a46.jpg",
+    "static/media/art4.jpg": "/sezuki/static/media/art4.85c2e613d3a10ebca3c9.jpg",
+    "static/media/tattoo5.jpg": "/sezuki/static/media/tattoo5.9a953ba892c443e4d94e.jpg",
+    "static/media/tattoo4.jpg": "/sezuki/static/media/tattoo4.7d1beb357ca2bdbaf342.jpg",
+    "static/media/koi.jpg": "/sezuki/static/media/koi.9428f2c65d8c3f0fd119.jpg",
+    "static/media/frog.jpg": "/sezuki/static/media/frog.175a51a8e50b9e207ff1.jpg",
+    "static/media/frog2.jpg": "/sezuki/static/media/frog2.65d0f17459e3eb1b1bfa.jpg",
+    "static/media/tatto1.jpg": "/sezuki/static/media/tatto1.3660ca0476999ec046d1.jpg",
+    "static/media/dragon.jpg": "/sezuki/static/media/dragon.caee33cc096817230cf1.jpg",
+    "static/media/bird.jpg": "/sezuki/static/media/bird.3e5b752b1734b6d4067a.jpg",
+    "static/media/tatto3.jpg": "/sezuki/static/media/tatto3.d0ee6598c2af97cfad91.jpg",
+    "static/media/bird2.jpg": "/sezuki/static/media/bird2.be70d755693219f32318.jpg",
     "index.html": "/sezuki/index.html",
-    "main.073c9b0a.css.map": "/sezuki/static/css/main.073c9b0a.css.map",
-    "main.26977273.js.map": "/sezuki/static/js/main.26977273.js.map",
+    "main.07b05800.css.map": "/sezuki/static/css/main.07b05800.css.map",
+    "main.7879572d.js.map": "/sezuki/static/js/main.7879572d.js.map",
     "787.f863665e.chunk.js.map": "/sezuki/static/js/787.f863665e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.26977273.js"
+    "static/css/main.07b05800.css",
+    "static/js/main.7879572d.js"
   ]
 }
