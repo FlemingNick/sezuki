@@ -7,11 +7,12 @@
     h2{
         font-size: 36px;
     }
-    div{
-        max-width: 584px;
-    }
-    img{
-        max-width: 584px;
+    div, img{
+        max-width: 100%;
+
+        @media (min-width: 768px) {
+            max-width: 584px;
+        }
     }
 
     .btn{

@@ -15,45 +15,73 @@ import koi from './tattoos/koi.jpg'
 
 export const pictures = [
     {
-        url: tattoo1
+        url: tattoo1,
+        title: 'name of tattoo 1',
+        subtitle: 'subtitle of tattoo 1'
     },
     {
-        url: tattoo2
+        url: tattoo2,
+        title: 'name of tattoo 2',
+        subtitle: 'subtitle of tattoo 2'
     },
     {
-        url: tattoo3
+        url: tattoo3,
+        title: 'name of tattoo 3',
+        subtitle: 'subtitle of tattoo 3'
     },
     {
-        url: tattoo4
+        url: tattoo4,
+        title: 'name of tattoo 4',
+        subtitle: 'subtitle of tattoo 4'
     },
     {
-        url: tattoo5
+        url: tattoo5,
+        title: 'name of tattoo 5',
+        subtitle: 'subtitle of tattoo 5'
     },
     {
-        url: frog
+        url: frog,
+        title: 'name of tattoo 6',
+        subtitle: 'subtitle of tattoo 6'
     },
     {
-        url: frog2
+        url: frog2,
+        title: 'name of tattoo 7',
+        subtitle: 'subtitle of tattoo 7'
     },
     {
-        url: bird
+        url: bird,
+        title: 'name of tattoo 8',
+        subtitle: 'subtitle of tattoo 8'
     },
     {
-        url: bird2
+        url: bird2,
+        title: 'name of tattoo 9',
+        subtitle: 'subtitle of tattoo 9'
     },
     {
-        url: paint
+        url: paint,
+        title: 'name of tattoo 10',
+        subtitle: 'subtitle of tattoo 10'
     },
     {
-        url: paint2
+        url: paint2,
+        title: 'name of tattoo 11',
+        subtitle: 'subtitle of tattoo 11'
     },
     {
-        url: art
+        url: art,
+        title: 'name of tattoo 12',
+        subtitle: 'subtitle of tattoo 12'
     },
     {
-        url: dragon
+        url: dragon,
+        title: 'name of tattoo 12',
+        subtitle: 'subtitle of tattoo 12'
     },
     {
-        url: koi
+        url: koi,
+        title: 'name of tattoo 13',
+        subtitle: 'subtitle of tattoo 13'
     }
 ]

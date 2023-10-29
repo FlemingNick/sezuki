@@ -9,7 +9,7 @@
     form{
         display: flex;
         flex-direction: column;
-        width: 500px;
+        max-width: 500px;
         gap: 8px;
 
         input[type=text],
