@@ -4,8 +4,12 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 16px;
     
+    @media (min-width: 900px) {
+        justify-content: flex-start;
+    }
 
     .gallery-element{
         width: 270px;
@@ -55,9 +59,11 @@ img{
             color: $white;
         }
     }
+    
     .modal-wrapper{
         display: flex;
     }
+
     .modal-content, img{
         max-height: 70vh;
         max-width: 300px;

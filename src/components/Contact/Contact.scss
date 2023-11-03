@@ -1,19 +1,31 @@
 @import './../../color';
 
-.contact-wrapper{
+.container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.contact-wrapper{
+    
+    padding: 32px;
+    @media (min-width: 768px) {
+        width: 500px;
+    }
+    
 
     form{
         display: flex;
         flex-direction: column;
-        max-width: 500px;
+        width: 100%;
         gap: 8px;
+        
+
+        
 
         input[type=text],
         input[type=email],
+        input[type=tel],
         textarea{
             font-size: large;
             padding: 8px;
@@ -23,8 +35,6 @@
         }
         textarea{
             height: 12em;
-            
-           
         }
         .form-element{
             width: 100%;

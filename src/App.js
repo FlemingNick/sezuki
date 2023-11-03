@@ -8,11 +8,13 @@ import Hero from './components/Hero/Hero';
 import Shop from './components/Shop/Shop';
 import Art from './components/Art/Art';
 import Contact from './components/Contact/Contact';
+import Anouncement from './components/Anouncement/Anouncement';
 
 function App() {
   return (
     <div className="App">
       <Header/>
+      <Anouncement/>
       <Hero/>
       <About className="container"/>
       <Banner/>

@@ -15,6 +15,13 @@
         }
     }
 
+    .content{
+        padding: 32px;
+        @media (min-width: 1200px) {
+            padding: 0;
+        }
+    }
+
     .btn{
         margin: 16px 0;
     }

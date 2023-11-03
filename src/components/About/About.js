@@ -1,21 +1,26 @@
 import React from 'react';
 import './About.scss';
+import { useTranslation } from "react-i18next";
 
-const About = () => (
+const About = () => {
+
+const { t } = useTranslation();
+   
+return(
  <section className='container' id='about'>
     
     <div className='wrapper'>
-      <div>
+      <div className='content'>
          <h2>SEZUKI 雪子鬼</h2>
-         <p className='introduction'>
-         おはよう！ dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
          
-         <p className='introduction'>
-         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempo liquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergr
+         <p>
+            {t("aboutText")}
+            <br/><br/>
+            {t("aboutText2")}
          </p>
          
          <button className='btn'>
-            contact me
+            {t("contactBtn")}
          </button>
       </div>
       <div>
@@ -24,7 +29,7 @@ const About = () => (
     </div>
     
  </section>
-);
+)}
 
 About.propTypes = {};
 

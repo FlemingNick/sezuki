@@ -2,9 +2,12 @@ import React from 'react';
 import './Contact.scss'
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
    const form = useRef();
+
+   const { t } = useTranslation();
 
    const [success, setSuccess] = useState(false);
 
@@ -24,24 +27,36 @@ const Contact = () => {
    
 
    return(
-   <section className='container'>
+   <section className='container' id='contact'>
       <div className='contact-wrapper'>
-         <h2>Contact me</h2>
+         
+         
+         <h2>{t("contact.header")}</h2>
+         <div>
+            <h4>{t("contact.note.header")}</h4>
+            <p>
+               {t("contact.note.text")}
+            </p>
+         </div>
          <form method="post" enctype="text/plain" ref={form} onSubmit={sendEmail}>
             <span className='form-element'>
-               <p>Name</p>
-               <input type="text" name="from_name" placeholder='John Doe' required/>
+               <p>{t("contact.form.name")}</p>
+               <input type="text" name="from_name" placeholder={t("contact.form.namePlaceholder")} required/>
             </span>
             <span className='form-element'>
-               <p>E-Mail</p>
-               <input type="email" name="user_email" placeholder='john.doe@yourmail.com' required/>
+               <p>{t("contact.form.mail")}</p>
+               <input type="email" name="user_email" placeholder={t("contact.form.mailPlaceholder")} required/>
             </span>
             <span className='form-element'>
-               <p>Message</p>
-               <textarea type="textarea" name="message" placeholder='desired motive, area, color, time' required/>
+               <p>{t("contact.form.phone")}</p>
+               <input type="tel" name="telephone" placeholder='+00 0123456' required/>
+            </span>
+            <span className='form-element'>
+               <p>{t("contact.form.message")}</p>
+               <textarea type="textarea" name="message" placeholder={t("contact.form.messagePlaceholder")} required/>
             </span>
             <span className='submit-element'>
-               <input type="submit" value="send" className='btn'/>
+               <input type="submit" value={t("contact.form.send")} className='btn'/>
             </span>
 
             {success &&
