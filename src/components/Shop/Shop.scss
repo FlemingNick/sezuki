@@ -17,8 +17,10 @@
         align-items: center;
         background-color: $white;
         padding: 32px;
-        border-radius: 10px;
-        box-shadow: 5px 5px 5px 5px rgba(20, 20, 29, 0.6);;
+        @media (min-width:768px) {
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px 5px rgba(20, 20, 29, 0.6);
+        }
         p{
             text-align: center;
         }

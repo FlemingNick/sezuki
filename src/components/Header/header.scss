@@ -1,21 +1,45 @@
 @import './../../color';
 
 .header{
-    background-color: $dark-grey;
     color: $white;
-    padding: 16px 32px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    flex-direction: column;
     position: sticky;
     align-items: stretch;
-    top: 0;
+    top: -1px;
     z-index: 10;
-    
-    
-    flex-direction: column;
+    width: 100%;
+    .header-content-desktop, .header-content-mobile{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: stretch;
+        background-color: $dark-grey;
+        padding: 16px 32px;
+        flex: auto;
+    }
 
-    @media (min-width: 768px) {
+    .header-content-desktop{
+        display: none;
+        @media (min-width:1200px) {
+            display: flex;
+        }
+    }
+
+    .header-content-mobile, 
+    .header-flyout-mobile{
+        display: flex;
+        @media (min-width:1200px) {
+            display: none;
+        }
+    }
+
+    .header-content-mobile{
+        position: relative;
+    }
+
+    @media (min-width: 1200px) {
         flex-direction: row;
     }
 
@@ -24,7 +48,7 @@
         justify-content: flex-end;
     }
 
-    .language-changer{
+    .language-changer, .burger-icon{
         height: 100%;
         display: flex;
         align-items: center;
@@ -82,4 +106,72 @@
             }
         }
     }
+
+    @media (max-width:1199px) {
+        .header-flyout-mobile{
+            position: absolute;
+            top: 50px;
+            transform: translateX(-100%);
+            width: 350px;
+            background-color: $dark-grey;
+            height: calc(100vh - 42px);
+            display: flex;
+            flex-direction: column;
+            margin-top: -2px;
+            gap: 32px;
+            >.navigation, >.links{
+                align-items: flex-start;
+                list-style: none;
+                display: flex;
+                padding: 0;
+                gap: 0;
+                >li{
+                    padding: 16px 32px;
+                }
+            }
+    
+            >.navigation{
+                flex-direction: column;
+                justify-content: center;
+                li{
+                    height: auto;
+                }
+            }
+    
+            >.links{
+                flex-direction: row;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+            }
+
+            &[flyoutAnim='1']{
+                animation: open 1s forwards;
+            }
+
+            &[flyoutAnim='0']{
+                animation: close 1s forwards;
+            }
+
+            @keyframes open {
+                0% {
+                    transform: translateX(-100%);
+                }
+                100% {
+                    transform: translateX(0);
+                }
+            }
+
+            @keyframes close {
+                0% {
+                    transform: translateX(0);
+                }
+                100% {
+                    transform: translateX(-100%);
+                }
+            }
+        }
+    }
+
+
+    
 }

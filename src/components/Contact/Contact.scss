@@ -9,6 +9,8 @@
 .contact-wrapper{
     
     padding: 32px;
+    width: 100%;
+    box-sizing: border-box;
     @media (min-width: 768px) {
         width: 500px;
     }
@@ -17,8 +19,9 @@
     form{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        
         gap: 8px;
+        
         
 
         
@@ -30,18 +33,13 @@
             font-size: large;
             padding: 8px;
             border: 2px solid $grey;
-            width: 100%;
+            width: calc(100% - 15px);
             border-radius: 5px;
         }
         textarea{
             height: 12em;
         }
-        .form-element{
-            width: 100%;
-            input{
-                width: 100%;
-            }
-        }
+        
         .submit-element{
             display: flex;
             align-items: center;

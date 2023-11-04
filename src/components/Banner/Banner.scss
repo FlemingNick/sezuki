@@ -11,6 +11,9 @@
     align-items: center;
     margin: auto;
     max-width: 800px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
     div{
         display: flex;
         flex-direction: column;
