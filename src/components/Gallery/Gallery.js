@@ -1,6 +1,7 @@
 import React from 'react';
 import './Gallery.scss'
 import { pictures } from './pictures';
+import { useTranslation } from "react-i18next";
 
 
 
@@ -9,6 +10,8 @@ const Gallery = () => {
    
    const [modalIsOpen, setIsOpen] = React.useState(false);
    const [currentElement, setCurrentElement] = React.useState(5);
+
+   const { i18n } = useTranslation();
 
    const gallery = [...pictures];
 
@@ -24,6 +27,22 @@ const Gallery = () => {
          setCurrentElement(0);
       }else{
          setCurrentElement(currentElement+1);
+      }
+   }
+
+   const renderTitle = () => {
+      if(i18n.language === 'en'){
+         return gallery[currentElement].title;
+      } else{
+         return gallery[currentElement].titleJapanese;
+      }
+   }
+
+   const renderText = () => {
+      if(i18n.language === 'en'){
+         return gallery[currentElement].subtitle;
+      } else{
+         return gallery[currentElement].subtitleJapanese;
       }
    }
 
@@ -53,8 +72,8 @@ const Gallery = () => {
                <button className='arrow-left' onClick={() => previousPicture()}/>
                <div className='modal-content'>
                   <img src={gallery[currentElement].url} alt='to be replaced'/>
-                  <h3>{gallery[currentElement].title}</h3>
-                  <p>{gallery[currentElement].subtitle}</p>
+                  <h3>{renderTitle()}</h3>
+                  <p>{renderText()}</p>
                </div>
                <button className='arrow-right' onClick={() => nextPicture()}/>
             </div>

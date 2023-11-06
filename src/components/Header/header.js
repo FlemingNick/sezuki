@@ -60,16 +60,16 @@ const Header = () =>{
             
                <ul className='links'>
                   <li>
-                     <a href='https://www.instagram.com/sezuki1995/' id='art' className='icon'>洒落画鬼屋</a>
+                     <a href='https://sezuki.official.ec/' title="https://sezuki.official.ec/" id='art' className='icon'>洒落画鬼屋</a>
                   </li>
                   <li>
-                     <a href='https://www.instagram.com/sezuki1995/' id='fashion' className='icon'>ファッション</a>
+                     <a href='https://www.instagram.com/sezuki1995/' title="https://www.instagram.com/sezuki1995/" id='fashion' className='icon'>ファッション</a>
                   </li>
                   <li>
-                     <a href='https://www.instagram.com/sezuki1995/' id='insta' className='icon'><img src={process.env.PUBLIC_URL + '/insta.png'} alt='insta-icon'/></a>
+                     <a href='https://www.instagram.com/sezuki1995/' title="https://www.instagram.com/sezuki1995/" id='insta' className='icon'><img src={process.env.PUBLIC_URL + '/insta.png'} alt='insta-icon'/></a>
                   </li>
                   <li>
-                     <a href='https://www.facebook.com/littletokyoink' id='facebook' className='icon'><img src={process.env.PUBLIC_URL + '/facebook.png'} alt='facebook-icon'/></a>
+                     <a href='https://www.facebook.com/littletokyoink' title="https://www.facebook.com/littletokyoink" id='facebook' className='icon'><img src={process.env.PUBLIC_URL + '/facebook.png'} alt='facebook-icon'/></a>
                   </li>
                </ul>
             </div>
@@ -110,16 +110,16 @@ const Header = () =>{
             </ul>
             <ul className='links'>
                   <li>
-                     <a href='https://www.instagram.com/sezuki1995/' id='art' className='icon'>洒落画鬼屋</a>
+                     <a href='https://sezuki.official.ec/' title="https://sezuki.official.ec/" id='art' className='icon'>洒落画鬼屋</a>
                   </li>
                   <li>
-                     <a href='https://www.instagram.com/sezuki1995/' id='fashion' className='icon'>ファッション</a>
+                     <a href='https://www.instagram.com/sezuki1995/' title="https://www.instagram.com/sezuki1995/" id='fashion' className='icon'>ファッション</a>
                   </li>
                   <li>
-                     <a href='https://www.instagram.com/sezuki1995/' id='insta' className='icon'><img src={process.env.PUBLIC_URL + '/insta.png'} alt='insta-icon'/></a>
+                     <a href='https://www.instagram.com/sezuki1995/' title="https://www.instagram.com/sezuki1995/" id='insta' className='icon'><img src={process.env.PUBLIC_URL + '/insta.png'} alt='insta-icon'/></a>
                   </li>
                   <li>
-                     <a href='https://www.facebook.com/littletokyoink' id='facebook' className='icon'><img src={process.env.PUBLIC_URL + '/facebook.png'} alt='facebook-icon'/></a>
+                     <a href='https://www.facebook.com/littletokyoink' title="https://www.facebook.com/littletokyoink" id='facebook' className='icon'><img src={process.env.PUBLIC_URL + '/facebook.png'} alt='facebook-icon'/></a>
                   </li>
                </ul>
          </div>

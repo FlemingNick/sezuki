@@ -21,9 +21,28 @@
     }
 
     .header-content-desktop{
+        padding: 0;
         display: none;
         @media (min-width:1200px) {
             display: flex;
+        }
+
+        .right-side{
+            padding: 16px 32px 16px 16px;
+        }
+
+        .navigation{
+
+            padding-left: 16px;
+            
+            li{
+                transition: background-color 0.5s ease;
+                &:hover{
+                    background-color: $grey;
+                    border-bottom: 2px solid $red;
+                }
+                
+            }
         }
     }
 
