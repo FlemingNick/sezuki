@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sezuki/static/css/main.3977efb5.css",
-    "main.js": "/sezuki/static/js/main.3949ba7d.js",
+    "main.css": "/sezuki/static/css/main.2834789d.css",
+    "main.js": "/sezuki/static/js/main.344a01d1.js",
     "static/js/787.f863665e.chunk.js": "/sezuki/static/js/787.f863665e.chunk.js",
     "static/media/Studio.jpg": "/sezuki/static/media/Studio.8952113d3b36e5efb11c.jpg",
     "static/media/art3centered.jpg": "/sezuki/static/media/art3centered.7d5928fc7da83003cf8f.jpg",
@@ -21,12 +21,12 @@
     "static/media/tatto3.jpg": "/sezuki/static/media/tatto3.d0ee6598c2af97cfad91.jpg",
     "static/media/bird2.jpg": "/sezuki/static/media/bird2.be70d755693219f32318.jpg",
     "index.html": "/sezuki/index.html",
-    "main.3977efb5.css.map": "/sezuki/static/css/main.3977efb5.css.map",
-    "main.3949ba7d.js.map": "/sezuki/static/js/main.3949ba7d.js.map",
+    "main.2834789d.css.map": "/sezuki/static/css/main.2834789d.css.map",
+    "main.344a01d1.js.map": "/sezuki/static/js/main.344a01d1.js.map",
     "787.f863665e.chunk.js.map": "/sezuki/static/js/787.f863665e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3977efb5.css",
-    "static/js/main.3949ba7d.js"
+    "static/css/main.2834789d.css",
+    "static/js/main.344a01d1.js"
   ]
 }
