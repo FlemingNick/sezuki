@@ -32,8 +32,10 @@ const Contact = () => {
          
          
          <h2 >{t("contact.header")}</h2>
+         <br></br>
          <div>
             <h4>{t("contact.note.header")}</h4>
+            
             <p>
                {t("contact.note.text")}
             </p>
