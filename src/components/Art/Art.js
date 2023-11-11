@@ -16,9 +16,11 @@ const Art = () => {
                <h2>{t("art.header")}</h2>
                <p>{t("art.paragraph1")}</p>
                <p>{t("art.paragraph2")}</p>
-               <p>{t("art.paragraph3")}</p>
                <div className='link-wrapper'>
                   <a className='external-link' href='https://sezuki.official.ec/' title='https://sezuki.official.ec/'><span>{t("art.artLink")}</span></a>
+               </div>
+               <p>{t("art.paragraph3")}</p>
+               <div className='link-wrapper'>
                   <a className='external-link' href='https://sezuki.official.ec/' title='https://sezuki.official.ec/'><span>{t("art.fashionLink")}</span></a>
                </div>
                

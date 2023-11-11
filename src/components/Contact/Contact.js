@@ -27,11 +27,11 @@ const Contact = () => {
    
 
    return(
-   <section className='container' id='contact'>
+   <section className='container anchor' id='contact'>
       <div className='contact-wrapper'>
          
          
-         <h2>{t("contact.header")}</h2>
+         <h2 >{t("contact.header")}</h2>
          <div>
             <h4>{t("contact.note.header")}</h4>
             <p>

@@ -37,6 +37,7 @@
             
             li{
                 transition: background-color 0.5s ease;
+                cursor: pointer;
                 &:hover{
                     background-color: $grey;
                     border-bottom: 2px solid $red;

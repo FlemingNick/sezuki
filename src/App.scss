@@ -1,6 +1,10 @@
 @import './color';
 @import './font-size';
 
+html{
+    scroll-behavior: smooth;
+}
+
 .App{
     background-color: $white;
     font-size: $font-size-m;
@@ -92,6 +96,14 @@ ul, h1, h2{
 
 ul{
     padding: 0;
+}
+
+.anchor::before{
+    content: '';
+    display: block;
+    height:      200px;
+    margin-top: -200px;
+    visibility: hidden;
 }
 
 code {

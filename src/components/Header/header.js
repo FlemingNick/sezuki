@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './header.scss';
 import { useTranslation } from "react-i18next";
+import { Link } from "react-scroll";
 
 const Header = () =>{
 
@@ -33,16 +34,16 @@ const Header = () =>{
          <div className='header-content-desktop'>
             <ul className='navigation'>
                <li>
-                  <a href='#home'><span>{t("navi.home")}</span></a>
+                  <Link to='home' spy={true} smooth={true} offset={-250} duration={200}><span>{t("navi.home")}</span></Link>
                </li>
                <li>
-                  <a href='#about'><span>{t("navi.about")}</span></a>
+                  <Link to='about' spy={true} smooth={true} offset={-250} duration={200}><span>{t("navi.about")}</span></Link>
                </li>
                <li>
-                  <a href='#gallery'><span>{t("navi.gallery")}</span></a>
+                  <Link to='gallery' spy={true} smooth={true} offset={-250} duration={200}><span>{t("navi.gallery")}</span></Link>
                </li>
                <li>
-                  <a href='#contact'><span>{t("navi.contact")}</span></a>
+                  <Link to='contact' spy={true} smooth={true} offset={-250} duration={200}><span>{t("navi.contact")}</span></Link>
                </li>
             </ul>
          

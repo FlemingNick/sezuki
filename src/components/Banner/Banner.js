@@ -4,7 +4,7 @@ import './Banner.scss'
 const Banner = () => (
  <section className='banner'>
    <div className='focus'>
-         <div>
+         {/* <div>
          <p className='kanji'>伝統的</p>
          <p>traditional</p>
          </div>
@@ -17,7 +17,11 @@ const Banner = () => (
          <div>
          <p className='kanji'>日本語</p>
          <p>japanese</p>
-         </div>
+         </div> */}
+
+            <div>
+                  <p className='kanji'>魑魅魍魎</p>
+            </div>
       </div>
 </section>
 );
