@@ -95,18 +95,18 @@ const Header = () =>{
          </div>
 
          <div className='header-flyout-mobile' flyoutAnim={flyoutAnim}>
-            <ul className='navigation'>
+         <ul className='navigation'>
                <li>
-                  <a href='#home' onClick={() => setFlyoutAnim(0)}><span>{t("navi.home")}</span></a>
+                  <Link to='home' spy={true} smooth={true} offset={-250} duration={200} onClick={openFlyout}><span>{t("navi.home")}</span></Link>
                </li>
                <li>
-                  <a href='#about' onClick={() => setFlyoutAnim(0)}><span>{t("navi.about")}</span></a>
+                  <Link to='about' spy={true} smooth={true} offset={-250} duration={200} onClick={openFlyout}><span>{t("navi.about")}</span></Link>
                </li>
                <li>
-                  <a href='#gallery' onClick={() => setFlyoutAnim(0)}><span>{t("navi.gallery")}</span></a>
+                  <Link to='gallery' spy={true} smooth={true} offset={-250} duration={200} onClick={openFlyout}><span>{t("navi.gallery")}</span></Link>
                </li>
                <li>
-                  <a href='#contact' onClick={() => setFlyoutAnim(0)}><span>{t("navi.contact")}</span></a>
+                  <Link to='contact' spy={true} smooth={true} offset={-250} duration={200} onClick={openFlyout}><span>{t("navi.contact")}</span></Link>
                </li>
             </ul>
             <ul className='links'>

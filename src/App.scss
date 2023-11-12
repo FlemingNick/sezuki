@@ -88,7 +88,19 @@ a{
     transform: rotate(135deg);
 }
 
-
+.toad{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 128px;
+    @media (min-width: 764px) {
+        width: 200px;
+    }
+    @media (min-width: 1200px) {
+        width: 300px;
+    }
+    
+}
 
 ul, h1, h2{
     margin: 0;

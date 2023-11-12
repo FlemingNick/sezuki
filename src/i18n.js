@@ -20,6 +20,13 @@ i18n.use(initReactI18next).init({
                 headline: 'japanese x custom tattoo',
                 aboutText: 'I have been immersed in painting since childhood, and 28 years have passed since I became an apprentice at the age of 24. Still never forgetting my original intention, I have traveled all over the world to pursue the unique beauty of tattooing and to improve my technique. I chose Kyoto, my favorite city in Japan, as my final workplace.',
                 aboutText2: 'We are looking forward to the once-in-a-lifetime encounter with tattoos to those who have had a relationship with us in the past or who will have a relationship with us in the future.',
+                newsHeader: 'Guest Artists',
+                guest: {
+                    name: 'Guest Name',
+                    description1: '“Guest artists” will visit from February 1, 2024 to May 31, 2024. "Guest artist" specializes in tebori tattoos, a traditional Japanese tattoo.',
+                    description2: 'For reservations, please contact us using the inquiry form at the bottom of the page and specify that you are requesting "Guest Artist".',
+                    link: "Guest Artist's Gallery"
+                },
                 contactBtn: 'contact me',
                 studio: {
                     name: 'Tattoo place Janome',
@@ -59,13 +66,20 @@ i18n.use(initReactI18next).init({
                 navi: {
                     home: 'HOME',
                     about: 'ABOUT',
-                    gallery: 'ギャラリー',
-                    contact: '接触'
+                    gallery: 'GALLERY',
+                    contact: 'CONTACT'
                 },
                 anouncement: '京都に戻ってきた！',
                 headline: '刺青処 蛇乃目',
                 aboutText: '幼少から絵画に没頭し、24歳で弟子入りをして早28年経ちます。今尚初心を忘れずに、刺青独自の美を追求し、技術の向上のために世界中を旅してきました。人生の最後の仕事場として、日本で一番好きな街京都を選びました。',
                 aboutText2: '以前からご縁のある方、又はこれからご縁のある方、刺青による一期一会を心より楽しみにしております。',
+                newsHeader: 'ゲストアーティスト',
+                guest: {
+                    name: 'Guest Name',
+                    description1: '「ゲストアーティスト」は2024年2月1日から2024年5月31日まで訪問可能です。 「ゲストアーティスト」は、日本の伝統的な刺青である手彫りタトゥーを専門としています。',
+                    description2: 'ご予約につきましては、ページ下部のお問い合わせフォームより「ゲストアーティスト」と明記の上、ご連絡ください。',
+                    link: "ゲストアーティストのギャラリー"
+                },
                 contactBtn: 'お問い合わせ',
                 studio: {
                     name: '刺青処 蛇乃目',
