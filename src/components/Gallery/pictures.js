@@ -3,6 +3,17 @@ import tattoo2 from './tattoos/tatto2.jpg'
 import tattoo3 from './tattoos/tatto3.jpg'
 import tattoo4 from './tattoos/tattoo4.jpg'
 import tattoo5 from './tattoos/tattoo5.jpg'
+import tattoo6 from './tattoos/tattoo6.jpg'
+import tattoo7 from './tattoos/tattoo7.jpg'
+import tattoo8 from './tattoos/tattoo8.jpg'
+import tattoo9 from './tattoos/tattoo9.jpg'
+import tattoo10 from './tattoos/tattoo10.jpg'
+import tattoo11 from './tattoos/tattoo11.jpg'
+import tattoo12 from './tattoos/tattoo12.jpg'
+import tattoo13 from './tattoos/tattoo13.jpg'
+import tattoo14 from './tattoos/tattoo14.jpg'
+import tattoo15 from './tattoos/tattoo15.jpg'
+
 import frog from './tattoos/frog.jpg'
 import frog2 from './tattoos/frog2.jpg'
 import bird from './tattoos/bird.jpg'
@@ -111,5 +122,75 @@ export const pictures = [
         subtitle: 'subtitle of tattoo 13',
         titleJapanese: 'これは見出しの一例です',
         subtitleJapanese: 'これは単なるテキスト例です'
-    }
+    },
+    {
+        url: tattoo6,
+        title: 'name of tattoo 6',
+        subtitle: 'subtitle of tattoo 6',
+        titleJapanese: 'これは見出しの一例です',
+        subtitleJapanese: 'これは単なるテキスト例です'
+    },
+    {
+        url: tattoo7,
+        title: 'name of tattoo 7',
+        subtitle: 'subtitle of tattoo 7',
+        titleJapanese: 'これは見出しの一例です',
+        subtitleJapanese: 'これは単なるテキスト例です'
+    },
+    {
+        url: tattoo8,
+        title: 'name of tattoo 8',
+        subtitle: 'subtitle of tattoo 8',
+        titleJapanese: 'これは見出しの一例です',
+        subtitleJapanese: 'これは単なるテキスト例です'
+    },
+    {
+        url: tattoo9,
+        title: 'name of tattoo 9',
+        subtitle: 'subtitle of tattoo 9',
+        titleJapanese: 'これは見出しの一例です',
+        subtitleJapanese: 'これは単なるテキスト例です'
+    },
+    {
+        url: tattoo10,
+        title: 'name of tattoo 10',
+        subtitle: 'subtitle of tattoo 10',
+        titleJapanese: 'これは見出しの一例です',
+        subtitleJapanese: 'これは単なるテキスト例です'
+    },
+    {
+        url: tattoo11,
+        title: 'name of tattoo 11',
+        subtitle: 'subtitle of tattoo 11',
+        titleJapanese: 'これは見出しの一例です',
+        subtitleJapanese: 'これは単なるテキスト例です'
+    },
+    {
+        url: tattoo12,
+        title: 'name of tattoo 12',
+        subtitle: 'subtitle of tattoo 12',
+        titleJapanese: 'これは見出しの一例です',
+        subtitleJapanese: 'これは単なるテキスト例です'
+    },
+    {
+        url: tattoo13,
+        title: 'name of tattoo 13',
+        subtitle: 'subtitle of tattoo 13',
+        titleJapanese: 'これは見出しの一例です',
+        subtitleJapanese: 'これは単なるテキスト例です'
+    },
+    {
+        url: tattoo14,
+        title: 'name of tattoo 14',
+        subtitle: 'subtitle of tattoo 14',
+        titleJapanese: 'これは見出しの一例です',
+        subtitleJapanese: 'これは単なるテキスト例です'
+    },
+    {
+        url: tattoo15,
+        title: 'name of tattoo 15',
+        subtitle: 'subtitle of tattoo 15',
+        titleJapanese: 'これは見出しの一例です',
+        subtitleJapanese: 'これは単なるテキスト例です'
+    },
 ]

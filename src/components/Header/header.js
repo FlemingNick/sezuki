@@ -45,6 +45,9 @@ const Header = () =>{
                <li>
                   <Link to='contact' spy={true} smooth={true} offset={-250} duration={200}><span>{t("navi.contact")}</span></Link>
                </li>
+               <li>
+                  <Link to='FAQ' spy={true} smooth={true} offset={-250} duration={200}><span>{t("navi.FAQ")}</span></Link>
+               </li>
             </ul>
          
          
@@ -107,6 +110,9 @@ const Header = () =>{
                </li>
                <li>
                   <Link to='contact' spy={true} smooth={true} offset={-250} duration={200} onClick={openFlyout}><span>{t("navi.contact")}</span></Link>
+               </li>
+               <li>
+                  <Link to='FAQ' spy={true} smooth={true} offset={-250} duration={200} onClick={openFlyout}><span>{t("navi.FAQ")}</span></Link>
                </li>
             </ul>
             <ul className='links'>

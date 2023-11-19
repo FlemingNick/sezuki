@@ -10,6 +10,7 @@ import Art from './components/Art/Art';
 import Contact from './components/Contact/Contact';
 import Anouncement from './components/Anouncement/Anouncement';
 import News from './components/News/News';
+import FAQ from './components/FAQ/FAQ';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Shop/>
       <Art/>
       <Contact/>
+      <FAQ/>
       <Footer/>
       <img className="toad" src={process.env.PUBLIC_URL + '/Toad.svg'} alt='toad in bathtub'/>
     </div>

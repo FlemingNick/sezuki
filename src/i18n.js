@@ -14,7 +14,8 @@ i18n.use(initReactI18next).init({
                     home: 'Home',
                     about: 'About',
                     gallery: 'Gallery',
-                    contact: 'Contact'
+                    contact: 'Contact',
+                    FAQ: 'FAQ'
                 },
                 anouncement: 'I am back in Kyoto!',
                 headline: 'japanese x custom tattoo',
@@ -57,6 +58,18 @@ i18n.use(initReactI18next).init({
                         send: 'send',
                         success: 'Thank you for your request! I will message you back as soon as possible.'
                     }
+                },
+                faq: {
+                    question1: 'What is the pricing system?',
+                    answer1: 'The fee is 20,000 yen for the first hour and 15,000 yen for each subsequent hour. If the duration is 4 hours or more, the flat rate will be 15,000 yen per hour.',
+                    question2: 'How much is the deposit?',
+                    answer2: 'A deposit of 20,000 yen will be requested at the time the design begins. The deposit will be offset when the work is completed.',
+                    question3: 'Are there any areas or patterns that you do not tattoo?',
+                    answer3: 'I do not do tattoos on the soles, as the skin on the soles of the feet is hard and thick, so it is not suitable for tattoos that can be enjoyed from the skin Additionally, I do not do treatments on areas with many capillaries, such as earlobes or lips. Please feel free to contact me regarding designs.',
+                    question4: 'Do you do Cover-Ups?',
+                    answer4: 'I love it. If you attach a photo of the current condition when contacting us, we will help you by suggesting designs that can be covered up.',
+                    question5: 'Do you offer Walk-In Appointments?',
+                    answer5: 'No. All sessions are done via reservation only.'
                 }
 
             }
@@ -67,7 +80,8 @@ i18n.use(initReactI18next).init({
                     home: 'HOME',
                     about: 'ABOUT',
                     gallery: 'GALLERY',
-                    contact: 'CONTACT'
+                    contact: 'CONTACT',
+                    FAQ: 'FAQ'
                 },
                 anouncement: '京都に戻ってきた！',
                 headline: '刺青処 蛇乃目',
@@ -110,6 +124,18 @@ i18n.use(initReactI18next).init({
                         send: '送る',
                         success: 'リクエストありがとうございます！できるだけ早くお返事を差し上げます。'
                     }
+                },
+                faq: {
+                    question1: '料金システムが知りたいです',
+                    answer1: '時間制で、初めの一時間は二万円、二時間目以降は一時間一万五千円です。四時間以上の場合は均一で時間一万五千円になります。',
+                    question2: '内金は必要ですか？',
+                    answer2: 'デザイン開始時に内金として20,000円をいただきます。作品完成時に内金は相殺されます。',
+                    question3: '彫れない部位や柄はありますか？',
+                    answer3: '足裏の皮膚は厚く、皮膚の上から楽しむ刺青には不向きなため、お断りいたします。また、耳たぶ、唇等毛細血管の多い場所もお断りいたします。デザインに関してはお気軽にお問い合わせください。',
+                    question4: 'カバーアップタトゥーは可能ですか？',
+                    answer4: '大好きです! お問い合わせの際に現状のお写真を添付いただければ、カバーアップ可能な図柄の提案からお手伝いさせて頂きます。',
+                    question5: '飛び込みで入れてもらうことは可能ですか？',
+                    answer5: '完全予約制ですので、不可能です。'
                 }
             }
         }
