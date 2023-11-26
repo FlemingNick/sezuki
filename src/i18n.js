@@ -18,26 +18,27 @@ i18n.use(initReactI18next).init({
                     FAQ: 'FAQ'
                 },
                 anouncement: 'I am back in Kyoto!',
-                headline: 'japanese x custom tattoo',
-                aboutText: 'I have been immersed in painting since childhood, and 28 years have passed since I became an apprentice at the age of 24. Still never forgetting my original intention, I have traveled all over the world to pursue the unique beauty of tattooing and to improve my technique. I chose Kyoto, my favorite city in Japan, as my final workplace.',
-                aboutText2: 'We are looking forward to the once-in-a-lifetime encounter with tattoos to those who have had a relationship with us in the past or who will have a relationship with us in the future.',
+                headline: 'SEZUKI TATTOO',
+                aboutText: 'I have been immersed in painting since childhood and now 28 years have passed since I became an tattoo apprentice at the age of 24. Still never forgetting my original intention, I have traveled the world to pursue the unique beauty of tattooing and continuing to improve my technique. I have chosen Kyoto, my favorite city in Japan, as my final workplace.',
+                aboutText2: 'I am looking forward to the once-in-a-lifetime tattoo experiences with those who have had a relationship with me in the past and those who will have a relationship with me in the future.',
                 newsHeader: 'Guest Artists',
                 guest: {
                     name: 'Guest Name',
                     description1: '“Guest artists” will visit from February 1, 2024 to May 31, 2024. "Guest artist" specializes in tebori tattoos, a traditional Japanese tattoo.',
-                    description2: 'For reservations, please contact us using the inquiry form at the bottom of the page and specify that you are requesting "Guest Artist".',
-                    link: "Guest Artist's Gallery"
+                    description2: 'For reservations, please contact us using the inquiry form at the bottom of the page and please specify that you are requesting "Guest Artist".',
+                    link: "Guest Artist's Gallery",
+                    link2: 'watch Guest Artist on YouTube'
                 },
                 contactBtn: 'contact me',
                 studio: {
                     name: 'Tattoo place Janome',
-                    text: "For around six month a year, you can find me at my studio in Kyoto. The studio is just two minutes away from xy station. You will receive the excact address after making an appointment. The other six month I will be visiting other studios around Europe. For further information and schedule, please contact me or visit my social media like "
+                    text: "For around six months a year you can find me at my studio in Kyoto. The studio is just two minutes away from xy station. You will receive the exact address after making an appointment. The other six month I will be visiting other studios in Europe. For further information and my schedule, please contact me or visit my social media sites."
                 },
                 art: {
                     header: 'LIFE ART WORKS',
-                    paragraph1: 'Nuclear abolition themed silkscreens, ceramics, etc. (shipped from the EU)',
+                    paragraph1: 'Nuclear abolition themed silkscreens, ceramics, etc. (Shipped from the EU)',
                     paragraph2: 'Tattoo pattern skateboard solo exhibition and online auction scheduled at the same time (Japan)',
-                    paragraph3: 'Currently in progress, we are launching a "Japanese apparel brand" designed by Japanese tattoo artists, transforming Japanese tradition into streetwear around the world ㊗︎',
+                    paragraph3: 'Currently in progress, we are launching a "Japanese apparel brand" designed by Japanese tattoo artists where we are transforming Japanese traditions into streetwear around the world ㊗︎',
                     artLink: 'Artworks for sale',
                     fashionLink: 'Check out my fashion label'
                 },
@@ -45,7 +46,7 @@ i18n.use(initReactI18next).init({
                     header: 'Contact me',
                     note: {
                         header: 'PLEASE READ BEFORE MAKING AN INQUIRY',
-                        text: 'For the rest of my life, I would like to carve pieces that pursue the beauty of tattoos, so I promise that each piece will be custom-made, emphasizing the empathy I have with my customers. Treatments are available for people over 20 years old.'
+                        text: 'For the rest of my life, I would like to tattoo pieces that pursue the beauty of tattoos. I promise that each piece will be custom-made, emphasizing the empathy and personal relation that I have with my customers. Services are available for those over 20 years old.'
                     },
                     form: {
                         name: 'Name',
@@ -60,16 +61,17 @@ i18n.use(initReactI18next).init({
                     }
                 },
                 faq: {
+                    headline: 'FAQ',
                     question1: 'What is the pricing system?',
                     answer1: 'The fee is 20,000 yen for the first hour and 15,000 yen for each subsequent hour. If the duration is 4 hours or more, the flat rate will be 15,000 yen per hour.',
                     question2: 'How much is the deposit?',
-                    answer2: 'A deposit of 20,000 yen will be requested at the time the design begins. The deposit will be offset when the work is completed.',
+                    answer2: 'A deposit of 20,000 yen will be requested at the time the design begins. The deposit will be deducted when the work is completed.',
                     question3: 'Are there any areas or patterns that you do not tattoo?',
-                    answer3: 'I do not do tattoos on the soles, as the skin on the soles of the feet is hard and thick, so it is not suitable for tattoos that can be enjoyed from the skin Additionally, I do not do treatments on areas with many capillaries, such as earlobes or lips. Please feel free to contact me regarding designs.',
+                    answer3: 'I do not do tattoos on the soles, as the skin on the soles of the feet is hard and thick. I find that it is not suitable for tattoos that can be enjoyed from the skin. Additionally, I do not do treatments on areas with many capillaries, such as earlobes or lips. Please feel free to contact me regarding designs.',
                     question4: 'Do you do Cover-Ups?',
-                    answer4: 'I love it. If you attach a photo of the current condition when contacting us, we will help you by suggesting designs that can be covered up.',
+                    answer4: 'Yes and I love it. Please attach a photo of the cover-up tattoo in its current condition when contacting us, then we will help you by suggesting designs for the cover-up.',
                     question5: 'Do you offer Walk-In Appointments?',
-                    answer5: 'No. All sessions are done via reservation only.'
+                    answer5: 'Unfortunately not, all sessions are via reservation only.'
                 }
 
             }
@@ -81,10 +83,10 @@ i18n.use(initReactI18next).init({
                     about: 'ABOUT',
                     gallery: 'GALLERY',
                     contact: 'CONTACT',
-                    FAQ: 'FAQ'
+                    FAQ: 'Q&A'
                 },
                 anouncement: '京都に戻ってきた！',
-                headline: '刺青処 蛇乃目',
+                headline: 'SEZUKI TATTOO',
                 aboutText: '幼少から絵画に没頭し、24歳で弟子入りをして早28年経ちます。今尚初心を忘れずに、刺青独自の美を追求し、技術の向上のために世界中を旅してきました。人生の最後の仕事場として、日本で一番好きな街京都を選びました。',
                 aboutText2: '以前からご縁のある方、又はこれからご縁のある方、刺青による一期一会を心より楽しみにしております。',
                 newsHeader: 'ゲストアーティスト',
@@ -92,7 +94,8 @@ i18n.use(initReactI18next).init({
                     name: 'Guest Name',
                     description1: '「ゲストアーティスト」は2024年2月1日から2024年5月31日まで訪問可能です。 「ゲストアーティスト」は、日本の伝統的な刺青である手彫りタトゥーを専門としています。',
                     description2: 'ご予約につきましては、ページ下部のお問い合わせフォームより「ゲストアーティスト」と明記の上、ご連絡ください。',
-                    link: "ゲストアーティストのギャラリー"
+                    link: "ゲストアーティストのギャラリー",
+                    link2: 'YouTubeで「ゲストアーティスト」を見る'
                 },
                 contactBtn: 'お問い合わせ',
                 studio: {
@@ -126,6 +129,7 @@ i18n.use(initReactI18next).init({
                     }
                 },
                 faq: {
+                    headline: 'Q&A',
                     question1: '料金システムが知りたいです',
                     answer1: '時間制で、初めの一時間は二万円、二時間目以降は一時間一万五千円です。四時間以上の場合は均一で時間一万五千円になります。',
                     question2: '内金は必要ですか？',

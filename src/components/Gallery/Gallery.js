@@ -23,7 +23,7 @@ const Gallery = () => {
    }
 
    function nextPicture(){
-      if(currentElement+1==gallery.length){
+      if(currentElement+1===gallery.length){
          setCurrentElement(0);
       }else{
          setCurrentElement(currentElement+1);
@@ -47,16 +47,16 @@ const Gallery = () => {
    }
 
    function previousPicture(){
-      if(currentElement==0){
+      if(currentElement===0){
          setCurrentElement(gallery.length-1);
       }else{
          setCurrentElement(currentElement-1);
       }
    }
 
-   function closeModal() {
-      setIsOpen(false);
-   }
+   // function closeModal() {
+   //    setIsOpen(false);
+   // }
 
    return(
       <section className='container' id='gallery'>

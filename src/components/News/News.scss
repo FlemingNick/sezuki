@@ -1,7 +1,15 @@
+@import './../../color';
+
 .news{
+    position: relative;
     @media (min-width: 768px) {
         h2{
             margin-bottom: 32px;
         }
     }
+
+    
+
+    
+    
 }

@@ -8,10 +8,11 @@ const Hero = () => {
   
   return(
     <section className='hero-container' id='home'>
-      {/* <div className='motivation'>
-        <h1>{t("headline")}</h1>
-      </div> */}
-      <img src={process.env.PUBLIC_URL + '/tattooBG1.jpg'} alt='hero teaser image with janome logo'/>
+      <div className='headline'>
+        <h1>SEZUKI</h1>
+        <img src={process.env.PUBLIC_URL + '/logo.svg'} alt='family sign'/>
+        <h1>TATTOO</h1>
+      </div>
     </section>
 )};
 

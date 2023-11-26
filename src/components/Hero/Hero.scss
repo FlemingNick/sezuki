@@ -2,29 +2,47 @@
 
 .hero-container{
     width: 100%;
+    height: 80vh;
     box-sizing: border-box;
-    img{
-        width: 100%;
+    background-image: url(../../../public/oni.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 200%;
+    background-position-y: -30vh;
+    @media (min-width: 768px) {
+        background-size: cover;
+        background-position-y: -50vh;
     }
-    
-    // height: auto;
-    // width: 100%;
-    // background: url('../../../public/tattooBG1.jpg');
-    // background-position-x: center;
-    // background-size: cover;
-    // position: relative;
-    // display: flex;
-    // justify-content: center;
-    // @media  (min-width: 768px) {
-    //     height: 85vh;
-    // }
+    @media (min-width:1200px) {
+        background-position-y: -70vh;
+    }
+    .headline{
+        background-color: $dark-grey;
+        color: $white;
+        padding: 8px 32px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        max-width: 100%;
+        font-size: 1.5em;
+        flex-direction: column;
+        img{
+            height: 1.7em;
+        }
 
-    // .motivation{
-    //     padding: 16px;
-    // }
+        @media (min-width: 500px) {
+            flex-direction: row;
+        }
 
-    // h1{
-    //     font-size: 64px;
-    //     color: $dark-grey;
-    // }
+        @media (min-width: 900px) {
+            font-size: 3em;
+            img{
+                height: 1.7em;
+            }
+        }
+    }
 }

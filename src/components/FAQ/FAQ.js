@@ -9,7 +9,7 @@ const Faq = () => {
 
    return(
    <section className='container' id='FAQ'>
-      <h2>FAQ</h2>
+      <h2>{t("faq.headline")}</h2>
       <Accordion>
          <AccordionItem header={t("faq.question1")}>
             {t("faq.answer1")}

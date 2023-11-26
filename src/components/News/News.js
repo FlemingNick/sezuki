@@ -13,21 +13,25 @@ const News = () => {
          
          <div className='wrapper'>
             <div className='content'>
-               <h3>{t("guest.name")}</h3>
-               
-               <p>
-                  {t("guest.description1")}
-               </p>
+               <div className='float-wrapper'>
+                  <h3>{t("guest.name")}</h3>
+                  
+                  <p>
+                     {t("guest.description1")}
+                  </p>
 
-               <p>
-                  {t("guest.description2")}
-               </p>
-               <div className='link-wrapper'>
-                  <a className='external-link' href='https://sezuki.official.ec/' title='https://sezuki.official.ec/'><span>{t("guest.link")}</span></a>
+                  <p>
+                     {t("guest.description2")}
+                  </p>
+                  <div className='link-wrapper'>
+                     <a className='external-link' href='https://sezuki.official.ec/' title='https://sezuki.official.ec/'><span>{t("guest.link")}</span></a>
+                     <a className='external-link' href='https://www.youtube.com/watch?v=m_HvXxB9ODk' title='https://www.youtube.com/watch?v=m_HvXxB9ODk'><span>{t("guest.link2")}</span></a>
+                  </div>
                </div>
+               
             </div>
-            <div>
-               <img src={process.env.PUBLIC_URL + '/sticknpoke.jpg'} alt='portrait of guest artist'/>
+            <div className='image-wrapper'>
+               <img src={process.env.PUBLIC_URL + '/horiken.png'} alt='portrait of guest artist'/>
             </div>
          </div>
       </section>
