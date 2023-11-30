@@ -10,7 +10,7 @@ const Hero = () => {
     <section className='hero-container' id='home'>
       <div className='headline'>
         <h1>SEZUKI</h1>
-        <img src={process.env.PUBLIC_URL + '/logo.svg'} alt='family sign'/>
+        <img src={process.env.PUBLIC_URL + '/janome.svg'} alt='family sign'/>
         <h1>TATTOO</h1>
       </div>
     </section>

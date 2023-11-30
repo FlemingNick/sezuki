@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="816.37732"
+   height="1145.1973"
+   viewBox="0 0 816.37732 1145.1973"
+   sodipodi:docname="janome_Mark (2).ai"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16">
+      <path
+         d="M 0,858.898 H 612.283 V 0 H 0 Z"
+         id="path14" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     id="g8"
+     inkscape:groupmode="layer"
+     inkscape:label="janome_Mark (2)"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,1145.1973)">
+    <g
+       id="g10">
+      <g
+         id="g12"
+         clip-path="url(#clipPath16)">
+        <g
+           id="g18"
+           transform="translate(305.9863,381.7751)">
+          <path
+             d="m 0,0 v 0 c -26.245,0 -47.718,21.473 -47.718,47.718 v 0 c 0,26.244 21.473,47.717 47.718,47.717 v 0 c 26.245,0 47.718,-21.473 47.718,-47.717 v 0 C 47.718,21.473 26.245,0 0,0"
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path20" />
+        </g>
+        <g
+           id="g22"
+           transform="translate(305.9874,493.0963)">
+          <path
+             d="m 0,0 c -35.073,0 -63.606,-28.532 -63.606,-63.603 0,-35.071 28.533,-63.604 63.606,-63.604 35.071,0 63.603,28.533 63.603,63.604 C 63.603,-28.532 35.071,0 0,0 m 0,-131.856 c -37.636,0 -68.255,30.619 -68.255,68.253 0,37.634 30.619,68.252 68.255,68.252 37.634,0 68.252,-30.618 68.252,-68.252 0,-37.634 -30.618,-68.253 -68.252,-68.253"
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path24" />
+        </g>
+        <g
+           id="g26"
+           transform="translate(395.0956,388.2069)">
+          <path
+             d="M 0,0 -89.111,-51.447 -178.218,0 V 82.572 L -89.111,134.019 0,82.572 Z m -89.11,175.249 -124.817,-72.063 v -123.8 L -89.11,-92.677 35.708,-20.614 v 123.8 z"
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path28" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

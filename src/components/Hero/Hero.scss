@@ -2,21 +2,22 @@
 
 .hero-container{
     width: 100%;
-    height: 80vh;
+    height: 50vh;
     box-sizing: border-box;
-    background-image: url(../../../public/oni.jpg);
+    background-image: url(../../../public/header.jpeg);
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     background-size: 200%;
-    background-position-y: -30vh;
+    // background-position-y: -30vh;
     @media (min-width: 768px) {
         background-size: cover;
-        background-position-y: -50vh;
+        height: 80vh;
+        // background-position-y: -50vh;
     }
     @media (min-width:1200px) {
-        background-position-y: -70vh;
+        // background-position-y: -70vh;
     }
     .headline{
         background-color: $dark-grey;
@@ -28,17 +29,21 @@
         align-items: center;
         gap: 16px;
         max-width: 100%;
-        font-size: 1.5em;
-        flex-direction: column;
+        font-size: 5vw;
+        
+       
         img{
             height: 1.7em;
+            fill: #fff;
         }
 
         @media (min-width: 500px) {
-            flex-direction: row;
+           
+            //font-size: 1.5em;
         }
 
         @media (min-width: 900px) {
+            
             font-size: 3em;
             img{
                 height: 1.7em;
