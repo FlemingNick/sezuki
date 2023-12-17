@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: SketchAPI 2022.10.18.0 https://api.sketch.io -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketchjs="https://sketch.io/dtd/" sketchjs:metadata="eyJuYW1lIjoiRHJhd2luZy0yMS5za2V0Y2hwYWQiLCJzdXJmYWNlIjp7ImlzUGFpbnQiOnRydWUsIm1ldGhvZCI6ImZpbGwiLCJibGVuZCI6Im5vcm1hbCIsImVuYWJsZWQiOnRydWUsIm9wYWNpdHkiOjEsInR5cGUiOiJwYXR0ZXJuIiwicGF0dGVybiI6eyJ0eXBlIjoicGF0dGVybiIsInJlZmxlY3QiOiJuby1yZWZsZWN0IiwicmVwZWF0IjoicmVwZWF0Iiwic21vb3RoaW5nIjpmYWxzZSwic3JjIjoidHJhbnNwYXJlbnRMaWdodCIsInN4IjoxLCJzeSI6MSwieDAiOjAuNSwieDEiOjEsInkwIjowLjUsInkxIjoxfSwiaXNGaWxsIjp0cnVlfSwiY2xpcFBhdGgiOnsiZW5hYmxlZCI6dHJ1ZSwic3R5bGUiOnsic3Ryb2tlU3R5bGUiOiJibGFjayIsImxpbmVXaWR0aCI6MX19LCJkZXNjcmlwdGlvbiI6Ik1hZGUgd2l0aCBTa2V0Y2hwYWQiLCJtZXRhZGF0YSI6e30sImV4cG9ydERQSSI6NzIsImV4cG9ydEZvcm1hdCI6InBuZyIsImV4cG9ydFF1YWxpdHkiOjAuOTUsInVuaXRzIjoicHgiLCJ3aWR0aCI6MzMyLjg0NjY0NjgyNzQ1OTI3LCJoZWlnaHQiOjM1Ny4yMzQ2NDUzNzM4MjEyNSwicGFnZXMiOlt7IndpZHRoIjozMzIuODQ2NjQ2ODI3NDU5MjcsImhlaWdodCI6MzU3LjIzNDY0NTM3MzgyMTI1fV0sInV1aWQiOiI2YTYxNWYxMC00NTY2LTQ1ZDQtYjNjYi03ZGNhYThmMzA4MjUifQ==" width="332.84664682745927" height="357.23464537382125" viewBox="0 0 332.84664682745927 357.23464537382125">
+<defs>
+	<clipPath id="clipPath16">
+		<path id="path14" d="M 0,858.898 H 612.283 V 0 H 0 Z" sketchjs:uid="3" style="opacity: 1;"/>
+	</clipPath>
+</defs>
+<g style="mix-blend-mode: source-over;" sketchjs:tool="clipart" transform="matrix(1,0,0,1,-241.5581343650332,-393.92276483153574)" fill="#fff">
+	<g id="g8" transform="matrix(1.3333332538604736,0,0,-1.3333332538604736,0,1145.197265625)" sketchjs:uid="1">
+		<g id="g10" sketchjs:uid="2">
+			<g id="g12" clip-path="url(#clipPath16)" sketchjs:uid="4">
+				<g id="g18" transform="matrix(1,0,0,1,305.9862976074219,381.77508544921875)" sketchjs:uid="5">
+					<path id="path20" d="m 0,0 v 0 c -26.245,0 -47.718,21.473 -47.718,47.718 v 0 c 0,26.244 21.473,47.717 47.718,47.717 v 0 c 26.245,0 47.718,-21.473 47.718,-47.717 v 0 C 47.718,21.473 26.245,0 0,0" sketchjs:uid="6"/>
+				</g>
+				<g id="g22" transform="matrix(1,0,0,1,305.9873962402344,493.0963134765625)" sketchjs:uid="7">
+					<path id="path24" d="m 0,0 c -35.073,0 -63.606,-28.532 -63.606,-63.603 0,-35.071 28.533,-63.604 63.606,-63.604 35.071,0 63.603,28.533 63.603,63.604 C 63.603,-28.532 35.071,0 0,0 m 0,-131.856 c -37.636,0 -68.255,30.619 -68.255,68.253 0,37.634 30.619,68.252 68.255,68.252 37.634,0 68.252,-30.618 68.252,-68.252 0,-37.634 -30.618,-68.253 -68.252,-68.253" sketchjs:uid="8"/>
+				</g>
+				<g id="g26" transform="matrix(1,0,0,1,395.0956115722656,388.2069091796875)" sketchjs:uid="9">
+					<path id="path28" d="M 0,0 -89.111,-51.447 -178.218,0 V 82.572 L -89.111,134.019 0,82.572 Z m -89.11,175.249 -124.817,-72.063 v -123.8 L -89.11,-92.677 35.708,-20.614 v 123.8 z" sketchjs:uid="10" />
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
