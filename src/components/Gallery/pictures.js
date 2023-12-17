@@ -13,6 +13,11 @@ import tattoo12 from './tattoos/tattoo12.jpg'
 import tattoo13 from './tattoos/tattoo13.jpg'
 import tattoo14 from './tattoos/tattoo14.jpg'
 import tattoo15 from './tattoos/tattoo15.jpg'
+import origami from './tattoos/origami.jpg'
+import blackDragon from './tattoos/blackdragon.jpg'
+import octo from './tattoos/octo.jpg'
+import tribal from './tattoos/tribal.jpg'
+import blackkoi from './tattoos/blackkoi.jpg'
 
 import frog from './tattoos/frog.jpg'
 import frog2 from './tattoos/frog2.jpg'
@@ -27,38 +32,37 @@ import koi from './tattoos/koi.jpg'
 export const pictures = [
     {
         url: tattoo1,
-        title: 'name of tattoo 1',
-        subtitle: 'subtitle of tattoo 1',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        title: 'Iwanuma Kichirokurou Nobusato',
+        subtitle: 'Extermination of monster newts',
+        titleJapanese: '岩沼吉六郎信里',
+        subtitleJapanese: '化けイモリ退治'
     },
     {
         url: tattoo2,
-        title: 'name of tattoo 2',
-        subtitle: 'subtitle of tattoo 2',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        title: 'Traditional Double Sleeve',
+        // subtitle: 'subtitle of tattoo 2',
+        titleJapanese: '伝統的なダブルスリーブ',
+        // subtitleJapanese: 'これは単なるテキスト例です'
     },
     {
         url: tattoo3,
-        title: 'name of tattoo 3',
-        subtitle: 'subtitle of tattoo 3',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        title: 'Japanese Dragon Sleeve',
+        titleJapanese: '日本のドラゴンスリーブ',
+    },
+    {
+        url: tattoo14,
+        title: 'Nine-tailed Fox (Front)',
+        titleJapanese: '九尾の狐 (表側)',
     },
     {
         url: tattoo4,
-        title: 'name of tattoo 4',
-        subtitle: 'subtitle of tattoo 4',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        title: 'Nine-tailed Fox (Back)',
+        titleJapanese: '九尾の狐 (裏側)',
     },
     {
         url: tattoo5,
-        title: 'name of tattoo 5',
-        subtitle: 'subtitle of tattoo 5',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        title: 'Koi and Cherry Blossoms',
+        titleJapanese: '鯉と桜',
     },
     {
         url: frog,
@@ -69,10 +73,10 @@ export const pictures = [
     },
     {
         url: frog2,
-        title: 'name of tattoo 7',
-        subtitle: 'subtitle of tattoo 7',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        title: 'Frog father & son',
+        subtitle: 'made for customer in celebration of his newborn son',
+        titleJapanese: 'カエルの父と息子',
+        subtitleJapanese: 'お客様の生まれたばかりの息子のお祝いに作られました'
     },
     {
         url: bird,
@@ -111,17 +115,13 @@ export const pictures = [
     },
     {
         url: dragon,
-        title: 'name of tattoo 12',
-        subtitle: 'subtitle of tattoo 12',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        title: 'White Ink Dragon',
+        titleJapanese: '白インクの輪郭を持つ龍',
     },
     {
         url: koi,
-        title: 'name of tattoo 13',
-        subtitle: 'subtitle of tattoo 13',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        title: 'Koi with white ink details',
+        titleJapanese: '白いディテールの鯉のタトゥー',
     },
     {
         url: tattoo6,
@@ -139,31 +139,29 @@ export const pictures = [
     },
     {
         url: tattoo8,
-        title: 'name of tattoo 8',
-        subtitle: 'subtitle of tattoo 8',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        title: 'Tiger vs. Dragon',
+        subtitle: 'Backpiece with red and white ink details',
+        titleJapanese: 'タイガー対龍',
+        subtitleJapanese: '赤と白のインクのディテールが施されたバックピース'
     },
     {
         url: tattoo9,
-        title: 'name of tattoo 9',
-        subtitle: 'subtitle of tattoo 9',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        title: 'Amaterasu',
+        subtitle: 'water colored tattoo artwork',
+        titleJapanese: '天照大御神',
+        subtitleJapanese: '水色のタトゥーアートワーク'
     },
     {
         url: tattoo10,
-        title: 'name of tattoo 10',
-        subtitle: 'subtitle of tattoo 10',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        title: 'Oni',
+        subtitle: 'water colored backpiece tattoo artwork',
+        titleJapanese: '鬼',
+        subtitleJapanese: '水彩バックピースタトゥーアートワーク'
     },
     {
         url: tattoo11,
-        title: 'name of tattoo 11',
-        subtitle: 'subtitle of tattoo 11',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        title: 'Yin & Yang',
+        titleJapanese: '陰と陽',
     },
     {
         url: tattoo12,
@@ -173,24 +171,38 @@ export const pictures = [
         subtitleJapanese: 'これは単なるテキスト例です'
     },
     {
-        url: tattoo13,
-        title: 'name of tattoo 13',
-        subtitle: 'subtitle of tattoo 13',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
-    },
-    {
-        url: tattoo14,
-        title: 'name of tattoo 14',
-        subtitle: 'subtitle of tattoo 14',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        url: blackkoi,
+        title: 'Black Koi & Lotus Blossoms',
+        titleJapanese: '烏鯉と蓮',
     },
     {
         url: tattoo15,
+        title: 'Octopus Cover-Up',
+        titleJapanese: 'タコの隠蔽工作',
+    },
+    {
+        url: tribal,
+        title: 'Black Tribal Design',
+        titleJapanese: 'トライバル（黒）',
+    },
+    {
+        url: octo,
+        title: 'Octopus & Cherry Blossoms',
+        titleJapanese: '蛸と桜',
+    },
+    {
+        url: blackDragon,
+        title: 'Black Dragon',
+        subtitle: 'Full sleeve, black and gray only',
+        titleJapanese: '黒龍',
+        subtitleJapanese: '腕〜十分,黒ぼかしのみ'
+    },
+    {
+        url: origami,
         title: 'name of tattoo 15',
         subtitle: 'subtitle of tattoo 15',
         titleJapanese: 'これは見出しの一例です',
         subtitleJapanese: 'これは単なるテキスト例です'
     },
+    
 ]

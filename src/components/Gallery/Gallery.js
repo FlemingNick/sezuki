@@ -73,7 +73,10 @@ const Gallery = () => {
                <div className='modal-content'>
                   <img src={gallery[currentElement].url} alt='to be replaced'/>
                   <h3>{renderTitle()}</h3>
-                  <p>{renderText()}</p>
+                  {renderText() &&
+                     <p>{renderText()}</p>
+                  }
+                  
                </div>
                <button className='arrow-right' onClick={() => nextPicture()}/>
             </div>
