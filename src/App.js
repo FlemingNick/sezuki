@@ -9,7 +9,7 @@ import Shop from './components/Shop/Shop';
 import Art from './components/Art/Art';
 import Contact from './components/Contact/Contact';
 import Anouncement from './components/Anouncement/Anouncement';
-import News from './components/News/News';
+// import News from './components/News/News';
 import FAQ from './components/FAQ/FAQ';
 
 function App() {
