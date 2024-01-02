@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sezuki/static/css/main.e40c1979.css",
-    "main.js": "/sezuki/static/js/main.3b09ec81.js",
+    "main.css": "/sezuki/static/css/main.a6d2f469.css",
+    "main.js": "/sezuki/static/js/main.f68c94f8.js",
     "static/js/787.f863665e.chunk.js": "/sezuki/static/js/787.f863665e.chunk.js",
     "static/media/Oradano-mincho-GSRR.svg": "/sezuki/static/media/Oradano-mincho-GSRR.78197c6ac1611e80db13.svg",
     "static/media/Oradano-mincho-GSRR.eot": "/sezuki/static/media/Oradano-mincho-GSRR.2d95ed3dc524a361bc46.eot",
@@ -21,15 +21,12 @@
     "static/media/ink.jpg": "/sezuki/static/media/ink.e51ab69238bcd2850231.jpg",
     "static/media/tattoo10.jpg": "/sezuki/static/media/tattoo10.9ff3239f8bf69a75868f.jpg",
     "static/media/tattoo12.jpg": "/sezuki/static/media/tattoo12.eca22034474627a40eaa.jpg",
-    "static/media/paint2.jpg": "/sezuki/static/media/paint2.cd1176509ea224e825fc.jpg",
     "static/media/paint.jpg": "/sezuki/static/media/paint.7ba57303d6c586625a46.jpg",
-    "static/media/art4.jpg": "/sezuki/static/media/art4.85c2e613d3a10ebca3c9.jpg",
     "static/media/tattoo6.jpg": "/sezuki/static/media/tattoo6.e8025dcc894c0916a543.jpg",
     "static/media/tattoo7.jpg": "/sezuki/static/media/tattoo7.41c19382818e7dd8b7d3.jpg",
     "static/media/tattoo11.jpg": "/sezuki/static/media/tattoo11.d50c9ef2c09570127c78.jpg",
     "static/media/tattoo5.jpg": "/sezuki/static/media/tattoo5.9a953ba892c443e4d94e.jpg",
     "static/media/tattoo15.jpg": "/sezuki/static/media/tattoo15.2fd84b8a7326e453e34b.jpg",
-    "static/media/tattoo13.jpg": "/sezuki/static/media/tattoo13.502f86509972cab96a6b.jpg",
     "static/media/tattoo4.jpg": "/sezuki/static/media/tattoo4.7d1beb357ca2bdbaf342.jpg",
     "static/media/koi.jpg": "/sezuki/static/media/koi.9428f2c65d8c3f0fd119.jpg",
     "static/media/tattoo9.jpg": "/sezuki/static/media/tattoo9.7e7c7dd8d029171cdeb5.jpg",
@@ -43,12 +40,12 @@
     "static/media/bird2.jpg": "/sezuki/static/media/bird2.be70d755693219f32318.jpg",
     "static/media/tattoo14.jpg": "/sezuki/static/media/tattoo14.007821e152bc5599d289.jpg",
     "index.html": "/sezuki/index.html",
-    "main.e40c1979.css.map": "/sezuki/static/css/main.e40c1979.css.map",
-    "main.3b09ec81.js.map": "/sezuki/static/js/main.3b09ec81.js.map",
+    "main.a6d2f469.css.map": "/sezuki/static/css/main.a6d2f469.css.map",
+    "main.f68c94f8.js.map": "/sezuki/static/js/main.f68c94f8.js.map",
     "787.f863665e.chunk.js.map": "/sezuki/static/js/787.f863665e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e40c1979.css",
-    "static/js/main.3b09ec81.js"
+    "static/css/main.a6d2f469.css",
+    "static/js/main.f68c94f8.js"
   ]
 }
