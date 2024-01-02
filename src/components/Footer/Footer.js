@@ -3,7 +3,7 @@ import './Footer.scss';
 
 const Footer = () => (
  <footer>
-   <div className='footer-first-row'>
+   {/* <div className='footer-first-row'>
       <div className='content first'>
          <div>
             <h3>Studio</h3>
@@ -26,7 +26,7 @@ const Footer = () => (
             <a href='https://www.facebook.com/littletokyoink'>Facebook</a>
          </div>
       </div>
-   </div>
+   </div> */}
    <div className='footer-second-row'>
       <div className='content second'>
          <a href='https://www.instagram.com/fl_em_ing/'>Homepage by 式神</a>

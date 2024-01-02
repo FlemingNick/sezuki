@@ -11,6 +11,7 @@ import tattoo10 from './tattoos/tattoo10.jpg'
 import tattoo11 from './tattoos/tattoo11.jpg'
 import tattoo12 from './tattoos/tattoo12.jpg'
 import tattoo13 from './tattoos/tattoo13.jpg'
+import oni2 from './tattoos/oni2.jpg'
 import tattoo14 from './tattoos/tattoo14.jpg'
 import tattoo15 from './tattoos/tattoo15.jpg'
 import origami from './tattoos/origami.jpg'
@@ -18,6 +19,7 @@ import blackDragon from './tattoos/blackdragon.jpg'
 import octo from './tattoos/octo.jpg'
 import tribal from './tattoos/tribal.jpg'
 import blackkoi from './tattoos/blackkoi.jpg'
+import jellyfish from './tattoos/jellyfish.jpg'
 
 import frog from './tattoos/frog.jpg'
 import frog2 from './tattoos/frog2.jpg'
@@ -80,38 +82,38 @@ export const pictures = [
     },
     {
         url: bird,
-        title: 'name of tattoo 8',
-        subtitle: 'subtitle of tattoo 8',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        title: 'KARASU-TENGU #1',
+        subtitle: 'number 1 out of 2, healed',
+        titleJapanese: '烏天狗 #1',
+        subtitleJapanese: '2 人中 1 位、癒されました'
     },
     {
         url: bird2,
-        title: 'name of tattoo 9',
-        subtitle: 'subtitle of tattoo 9',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        title: 'KARASU-TENGU #2',
+        subtitle: 'number 2 out of 2, fresh',
+        titleJapanese: '烏天狗 #2',
+        subtitleJapanese: '2 人中 2 位、新鮮'
     },
     {
         url: paint,
-        title: 'name of tattoo 10',
-        subtitle: 'subtitle of tattoo 10',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        title: 'The Dream of the Fishermans Wife',
+        subtitle: 'Concept Art',
+        titleJapanese: '蛸と海女',
+        subtitleJapanese: 'コンセプトアート'
     },
+    // {
+    //     url: paint2,
+    //     title: 'name of tattoo 11',
+    //     subtitle: 'subtitle of tattoo 11',
+    //     titleJapanese: 'これは見出しの一例です',
+    //     subtitleJapanese: 'これは単なるテキスト例です'
+    // },
     {
-        url: paint2,
-        title: 'name of tattoo 11',
-        subtitle: 'subtitle of tattoo 11',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
-    },
-    {
-        url: art,
-        title: 'name of tattoo 12',
-        subtitle: 'subtitle of tattoo 12',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        url: jellyfish,
+        title: 'Jellyfish',
+        subtitle: 'white outlines, fresh',
+        titleJapanese: 'クラゲ',
+        subtitleJapanese: '白筋, 新鮮'
     },
     {
         url: dragon,
@@ -125,17 +127,13 @@ export const pictures = [
     },
     {
         url: tattoo6,
-        title: 'name of tattoo 6',
-        subtitle: 'subtitle of tattoo 6',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        title: 'Rising Koi & Sakura Cover-Up',
+        titleJapanese: 'カバーアップ: 鯉の滝登りと桜',
     },
     {
         url: tattoo7,
-        title: 'name of tattoo 7',
-        subtitle: 'subtitle of tattoo 7',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        title: 'Guardian Dog & Japanese Maples',
+        titleJapanese: '唐獅子と紅葉',
     },
     {
         url: tattoo8,
@@ -199,10 +197,14 @@ export const pictures = [
     },
     {
         url: origami,
-        title: 'name of tattoo 15',
-        subtitle: 'subtitle of tattoo 15',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        title: 'Origami Crane & Sakura Flowers ',
+        titleJapanese: '折り鶴と桜',
+    },
+    {
+        url: oni2,
+        title: 'Ashura',
+        subtitle: 'God of Battle',
+        titleJapanese: '阿修羅',
     },
     
 ]

@@ -20,14 +20,14 @@ footer{
             justify-content: space-between;
             flex-wrap: wrap;
 
-            &.first{
+            
                 max-width: 100%;
                     @media (min-width: 1200px) {
                         max-width: 1200px;
                     }
                 
                 margin: auto;
-            }
+            
         }
 
     }
@@ -38,7 +38,7 @@ footer{
     }
 
     .footer-second-row{
-        background-color: $grey;
+        background-color: $dark-grey;
         padding: 16px 0;
         a, ul{
             padding: 0 16px;

@@ -21,7 +21,7 @@ function App() {
       <About className="container"/>
       <Banner/>
       <Gallery/>
-      <News/>
+      {/* <News/> */}
       <Shop/>
       <Art/>
       <Contact/>
