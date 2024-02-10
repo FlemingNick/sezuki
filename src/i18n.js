@@ -72,6 +72,40 @@ i18n.use(initReactI18next).init({
                     answer4: 'Yes and I love it. Please attach a photo of the cover-up tattoo in its current condition when contacting us, then we will help you by suggesting designs for the cover-up.',
                     question5: 'Do you offer Walk-In Appointments?',
                     answer5: 'Unfortunately not, all sessions are via reservation only.'
+                },
+                data: {
+                    headline: 'Privacy Policy',
+                    intro: 'This privacy policy describes our arrangements regarding personal information provided through our contact form. This Privacy Policy sets forth our policies regarding the collection, use, disclosure, and protection of personal information on this site.',
+                    header1: '1. Collected Information',
+                    text1: 'The main information collected through this form is as follows:',
+                    text1a: 'Name',
+                    text1b: 'Email address',
+                    text1c: 'Content of inquiry',
+                    text1d: 'Telephone number',
+                    header2: '2. Purpose of collection',
+                    text2: 'The personal information collected through this form will be used for the following purposes:',
+                    text2a: 'Providing answers to inquiries and support',
+                    text2b: 'Improving services and ensuring quality',
+                    text2c: 'Fulfillment of legal obligations',
+                    header3: '3. Information sharing and disclosure',
+                    text3: 'We will not share your personal information with third parties unless necessary to respond to legal requests. If there is a legal request, we will notify you before providing the required information.',
+                    header4: '4. Storage of personal information',
+                    text4: 'Personal information collected will be protected by appropriate measures to prevent unauthorized access, disclosure, alteration, and loss.',
+                    header5: '5. Storage period for contact information',
+                    text5: 'Information provided through the contact form will be deleted within a reasonable period of time after we have responded to your inquiry.',
+                    header6: '6. Your rights',
+                    text6: 'With respect to the personal information you provide, you can exercise the following rights:',
+                    text6a: 'Right to access your information',
+                    text6b: 'Right to correct or delete information',
+                    text6c: 'Withdrawing consent to the processing of personal information',
+                    header7: '7. Changes to privacy policy',
+                    text7: 'We reserve the right to change this privacy policy as necessary. If there are any changes, we will post the changes on this page.',
+                    contactHeader: 'Contact details:',
+                    contact: '[put contact information and name in here]'
+
+                },
+                footer: {
+                    privacy: 'Privacy Policy'
                 }
 
             }
@@ -140,6 +174,40 @@ i18n.use(initReactI18next).init({
                     answer4: '大好きです! お問い合わせの際に現状のお写真を添付いただければ、カバーアップ可能な図柄の提案からお手伝いさせて頂きます。',
                     question5: '飛び込みで入れてもらうことは可能ですか？',
                     answer5: '完全予約制ですので、不可能です。'
+                },
+                data: {
+                    headline: 'プライバシーポリシー',
+                    intro: 'このプライバシーポリシーは、お問い合わせフォームを通じて提供される個人情報に関する取り決めを説明しています。このプライバシーポリシーは、当サイトにおける個人情報の収集、使用、開示、および保護に関する方針を定めています。',
+                    header1: '1. 収集される情報',
+                    text1: '当フォームを通じて収集される主な情報は以下の通りです：',
+                    text1a: 'お名前',
+                    text1b: 'メールアドレス',
+                    text1c: 'お問い合わせ内容',
+                    text1d: '電話番号',
+                    header2: '2. 収集の目的',
+                    text2: '当フォームで収集される個人情報は、以下の目的で利用されます：',
+                    text2a: 'お問い合わせに対する回答やサポートの提供',
+                    text2b: 'サービスの向上と品質の確保',
+                    text2c: '法的義務の履行',
+                    header3: '3. 情報の共有と開示',
+                    text3: '当社は、法的な要求に応じる必要がある場合を除き、お客様の個人情報を第三者と共有しません。法的要求がある場合、必要な情報を提供する前にお客様に通知します。',
+                    header4: '4. 個人情報の保管',
+                    text4: '収集された個人情報は、不正アクセス、漏洩、改ざん、損失の防止のために適切な手段で保護されます。',
+                    header5: '5. お問い合わせ情報の保管期間',
+                    text5: 'お問い合わせフォームを通じて提供された情報は、お問い合わせに対する対応が完了した後、適切な期間内で削除されます。',
+                    header6: '6. お客様の権利',
+                    text6: '提供された個人情報に関しては、お客様は以下の権利を行使できます：',
+                    text6a: 'ご自身の情報にアクセスする権利',
+                    text6b: '情報の修正や削除の権利',
+                    text6c: '個人情報の処理に対する同意の撤回',
+                    header7: '7. プライバシーポリシーの変更',
+                    text7: '当社は、必要に応じてこのプライバシーポリシーを変更する権利を有します。変更がある場合、変更内容を本ページに掲載します。',
+                    contactHeader: 'お問い合わせ先:',
+                    contact: '[put contact information and name in here]'
+
+                },
+                footer: {
+                    privacy: 'プライバシーポリシー'
                 }
             }
         }

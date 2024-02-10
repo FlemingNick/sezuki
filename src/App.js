@@ -12,24 +12,51 @@ import Anouncement from './components/Anouncement/Anouncement';
 // import News from './components/News/News';
 import FAQ from './components/FAQ/FAQ';
 
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import DataSec from './components/DataSec/DataSec';
+
+const Home = () => (
+  <>
+    <Anouncement/>
+    <Hero/>
+    <About className="container"/>
+    <Banner/>
+    <Gallery/>
+    {/* <News/> */}
+    <Shop/>
+    <Art/>
+    <Contact/>
+    <FAQ/>
+  </>
+)
+
+const Data = () => (
+  <>
+    <DataSec/>
+  </>
+)
+
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Anouncement/>
-      <Hero/>
-      <About className="container"/>
-      <Banner/>
-      <Gallery/>
-      {/* <News/> */}
-      <Shop/>
-      <Art/>
-      <Contact/>
-      <FAQ/>
+
+      <Router>
+        <Routes>
+          <Route path="/data" element={<Data/>} />
+          <Route path="/home" element={<Home/>} />
+        </Routes>
+      </Router>
+
+      
+      
       <Footer/>
       <img className="toad" src={process.env.PUBLIC_URL + '/Toad.svg'} alt='toad in bathtub'/>
     </div>
   );
 }
+
+ReactDOM.render(<App />, document.getElementById('root'));
 
 export default App;
