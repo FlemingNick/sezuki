@@ -45,7 +45,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/data" element={<Data/>} />
-          <Route path="/home" element={<Home/>} />
+          <Route path="/" element={<Home/>} />
         </Routes>
       </Router>
 

@@ -32,7 +32,7 @@ i18n.use(initReactI18next).init({
                 contactBtn: 'contact me',
                 studio: {
                     name: 'Tattoo place Janome',
-                    text: "For around six months a year you can find me at my studio in Kyoto. The studio is just two minutes away from xy station. You will receive the exact address after making an appointment. The other six month I will be visiting other studios in Europe. For further information and my schedule, please contact me or visit my social media sites."
+                    text: "For around six months a year you can find me at my studio in Kyoto. The studio is a 15 Minutes walk away from JR Kyoto Station (Hachijyou) and 10 Minutes walk from Karasuma-line KUJYO St. You will receive the exact address after making an appointment. The other six month I will be visiting other studios in Europe. For further information and my schedule, please contact me or visit my social media sites."
                 },
                 art: {
                     header: 'LIFE ART WORKS',
@@ -48,6 +48,7 @@ i18n.use(initReactI18next).init({
                         header: 'PLEASE READ BEFORE MAKING AN INQUIRY',
                         text: 'For the rest of my life, I would like to tattoo pieces that pursue the beauty of tattoos. I promise that each piece will be custom-made, emphasizing the empathy and personal relation that I have with my customers. Services are available for those over 20 years old.'
                     },
+                    note2: 'If you want to add reference pictures, please feel free to contact me directly at:',
                     form: {
                         name: 'Name',
                         namePlaceholder: 'John Doe',
@@ -58,7 +59,7 @@ i18n.use(initReactI18next).init({
                         messagePlaceholder: 'desired pattern, location, desired treatment date, etc.',
                         send: 'send',
                         success: 'Thank you for your request! I will message you back as soon as possible.'
-                    }
+                    },
                 },
                 faq: {
                     headline: 'FAQ',
@@ -101,7 +102,10 @@ i18n.use(initReactI18next).init({
                     header7: '7. Changes to privacy policy',
                     text7: 'We reserve the right to change this privacy policy as necessary. If there are any changes, we will post the changes on this page.',
                     contactHeader: 'Contact details:',
-                    contact: '[put contact information and name in here]'
+                    contact: '[put contact information and name in here]',
+                    return: 'return to homepage',
+                    name: 'Tomoko Soejima',
+                    address: 'AKETAMACHI 7, HIGASHIKUJYO, MINAMI-KU,KYOTO CITY, KYOTO'
 
                 },
                 footer: {
@@ -134,7 +138,7 @@ i18n.use(initReactI18next).init({
                 contactBtn: 'お問い合わせ',
                 studio: {
                     name: '刺青処 蛇乃目',
-                    text: "年に6ヶ月ほど、私は京都のスタジオにいます。スタジオはXY駅から徒歩2分です。住所は予約後にお知らせします。残りの6ヶ月はヨーロッパ各地のスタジオを訪れます。詳細やスケジュールについては、私に連絡するか、私のソーシャルメディアの「いいね!」をご覧ください："
+                    text: "年に6ヶ月ほど、私は京都のスタジオにいます。スタジオはJR京都駅(八条)から徒歩15分、烏丸線九条駅から徒歩10分です。住所は予約後にお知らせします。残りの6ヶ月はヨーロッパ各地のスタジオを訪れます。詳細やスケジュールについては、私に連絡するか、私のソーシャルメディアの「いいね!」をご覧ください："
                 },
                 art: {
                     header: '芸術作品',
@@ -150,6 +154,7 @@ i18n.use(initReactI18next).init({
                         header: 'お問い合わせの前にお読みください',
                         text: '余生は特に”刺青美”を追求した作品を彫りたいので、お客様との共感を大切に一つ一つが特注品になる事をお約束します。施術は20歳以上とさせて頂きます。'
                     },
+                    note2: '参考写真を追加したい場合は、お気軽に次のアドレスまで直接ご連絡ください: ',
                     form: {
                         name: '名前',
                         namePlaceholder: '山田花子',
@@ -203,8 +208,10 @@ i18n.use(initReactI18next).init({
                     header7: '7. プライバシーポリシーの変更',
                     text7: '当社は、必要に応じてこのプライバシーポリシーを変更する権利を有します。変更がある場合、変更内容を本ページに掲載します。',
                     contactHeader: 'お問い合わせ先:',
-                    contact: '[put contact information and name in here]'
-
+                    contact: '[put contact information and name in here]',
+                    return: 'ホームページに戻る',
+                    name: '副島 知子',
+                    address: '京都府京都市南区東九条明田町７番'
                 },
                 footer: {
                     privacy: 'プライバシーポリシー'

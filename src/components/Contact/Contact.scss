@@ -56,4 +56,9 @@
          padding: 16px 8px;
          background-color: $success;   
     }
+
+    .mailAdress, .mailAdress:link, .mailAdress:visited{
+        color: rgb(182, 2, 2);
+        text-decoration: underline;
+    }
 }

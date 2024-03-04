@@ -7,6 +7,7 @@ const DataSec = () => {
 
    return(
       <div className='container'>
+         <span><a href='/'>{t("data.return")}</a></span>
          <div className='data-container'>
             <section>
                <h2>{t("data.headline")}</h2>
@@ -69,10 +70,12 @@ const DataSec = () => {
 
             <section>
                <p>{t("data.contactHeader")}</p>
-               <p>{t("data.contact")}</p>
+               <p>{t("data.name")}</p>
+               <p>{t("data.address")}</p>
             </section>
                   
          </div>
+         <span><a href='/'>{t("data.return")}</a></span>
       </div>
       
    )
