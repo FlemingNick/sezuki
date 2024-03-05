@@ -66,12 +66,6 @@ const Contact = () => {
             </div>
          }
          </form>
-
-         <div>
-            <p>{t("contact.note2")} <a className="mailAdress" href="mailto:kyo_to_9.takebayashi@gmail.com">kyo_to_9.takebayashi@gmail.com</a></p>
-         </div>
-         
-         
       </div>
    </section>
    );

@@ -31,7 +31,7 @@ i18n.use(initReactI18next).init({
                 },
                 contactBtn: 'contact me',
                 studio: {
-                    name: 'Tattoo place Janome',
+                    name: 'Tattoo Studio',
                     text: "For around six months a year you can find me at my studio in Kyoto. The studio is a 15 Minutes walk away from JR Kyoto Station (Hachijyou) and 10 Minutes walk from Karasuma-line KUJYO St. You will receive the exact address after making an appointment. The other six month I will be visiting other studios in Europe. For further information and my schedule, please contact me or visit my social media sites."
                 },
                 art: {
@@ -137,7 +137,7 @@ i18n.use(initReactI18next).init({
                 },
                 contactBtn: 'お問い合わせ',
                 studio: {
-                    name: '刺青処 蛇乃目',
+                    name: 'タトゥースタジオ',
                     text: "年に6ヶ月ほど、私は京都のスタジオにいます。スタジオはJR京都駅(八条)から徒歩15分、烏丸線九条駅から徒歩10分です。住所は予約後にお知らせします。残りの6ヶ月はヨーロッパ各地のスタジオを訪れます。詳細やスケジュールについては、私に連絡するか、私のソーシャルメディアの「いいね!」をご覧ください："
                 },
                 art: {

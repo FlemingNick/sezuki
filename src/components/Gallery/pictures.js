@@ -41,15 +41,15 @@ export const pictures = [
     },
     {
         url: tattoo2,
-        title: 'Traditional Double Sleeve',
+        title: 'Traditional Japanese Tattoo',
         // subtitle: 'subtitle of tattoo 2',
-        titleJapanese: '伝統的なダブルスリーブ',
+        titleJapanese: '日本伝統刺青',
         // subtitleJapanese: 'これは単なるテキスト例です'
     },
     {
         url: tattoo3,
-        title: 'Japanese Dragon Sleeve',
-        titleJapanese: '日本のドラゴンスリーブ',
+        title: 'Traditional Japanese Tattoo Dragon 7 minutes',
+        titleJapanese: '日本伝統刺青　龍　7分',
     },
     {
         url: tattoo14,
@@ -68,38 +68,38 @@ export const pictures = [
     },
     {
         url: frog,
-        title: 'name of tattoo 6',
-        subtitle: 'subtitle of tattoo 6',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        title: 'Raiya the Frog Riding on a Skull Exposed in the Field',
+        // subtitle: 'subtitle of tattoo 6',
+        titleJapanese: '野晒し髑髏の上に乗る蛙の児雷也',
+        // subtitleJapanese: 'これは単なるテキスト例です'
     },
     {
         url: frog2,
         title: 'Frog father & son',
-        subtitle: 'made for customer in celebration of his newborn son',
+        subtitle: 'made for customer in celebration of his newborn daughter',
         titleJapanese: 'カエルの父と息子',
-        subtitleJapanese: 'お客様の生まれたばかりの息子のお祝いに作られました'
+        subtitleJapanese: 'お客様の生まれたばかりの娘のお祝いに作られました'
     },
     {
         url: bird,
-        title: 'KARASU-TENGU #1',
-        subtitle: 'number 1 out of 2, healed',
-        titleJapanese: '烏天狗 #1',
-        subtitleJapanese: '2 人中 1 位、癒されました'
+        title: 'White muscle immediately after treatment',
+        // subtitle: 'number 1 out of 2, healed',
+        titleJapanese: '白筋　施術直後',
+        // subtitleJapanese: '2 人中 1 位、癒されました'
     },
     {
         url: bird2,
-        title: 'KARASU-TENGU #2',
-        subtitle: 'number 2 out of 2, fresh',
-        titleJapanese: '烏天狗 #2',
-        subtitleJapanese: '2 人中 2 位、新鮮'
+        title: 'White muscle after healing',
+        // subtitle: 'number 2 out of 2, fresh',
+        titleJapanese: '白筋　治癒後',
+        // subtitleJapanese: '2 人中 2 位、新鮮'
     },
     {
         url: paint,
-        title: 'The Dream of the Fishermans Wife',
-        subtitle: 'Concept Art',
-        titleJapanese: '蛸と海女',
-        subtitleJapanese: 'コンセプトアート'
+        title: 'Princess Tamatori and the octopus',
+        subtitle: 'pattern for the entire back, watercolor painting',
+        titleJapanese: '玉取姫と蛸',
+        subtitleJapanese: '背中一面用図柄, 水彩画'
     },
     // {
     //     url: paint2,
@@ -110,20 +110,17 @@ export const pictures = [
     // },
     {
         url: jellyfish,
-        title: 'Jellyfish',
+        title: 'Kaigetsu',
         subtitle: 'white outlines, fresh',
-        titleJapanese: 'クラゲ',
-        subtitleJapanese: '白筋, 新鮮'
-    },
-    {
-        url: dragon,
-        title: 'White Ink Dragon',
-        titleJapanese: '白インクの輪郭を持つ龍',
+        titleJapanese: '海月',
+        subtitleJapanese: '白筋　施術直後'
     },
     {
         url: koi,
-        title: 'Koi with white ink details',
-        titleJapanese: '白いディテールの鯉のタトゥー',
+        title: 'Nishikigoi',
+        subtitle: 'Scales with white ink',
+        titleJapanese: '錦鯉',
+        subtitleJapanese: '鱗のみ白筋'
     },
     {
         url: tattoo6,
@@ -137,24 +134,24 @@ export const pictures = [
     },
     {
         url: tattoo8,
-        title: 'Tiger vs. Dragon',
-        subtitle: 'Backpiece with red and white ink details',
-        titleJapanese: 'タイガー対龍',
-        subtitleJapanese: '赤と白のインクのディテールが施されたバックピース'
+        title: 'Dragon and Tiger',
+        subtitle: 'White streaks, black blur and vermilion',
+        titleJapanese: '龍虎図',
+        subtitleJapanese: '白筋　黒ぼかしと朱'
     },
     {
         url: tattoo9,
-        title: 'Amaterasu',
+        title: 'Dakuniten',
         subtitle: 'water colored tattoo artwork',
-        titleJapanese: '天照大御神',
-        subtitleJapanese: '水色のタトゥーアートワーク'
+        titleJapanese: '荼枳尼天',
+        subtitleJapanese: '刺青用図柄水彩画'
     },
     {
         url: tattoo10,
-        title: 'Oni',
+        title: 'Fudo Myoo',
         subtitle: 'water colored backpiece tattoo artwork',
-        titleJapanese: '鬼',
-        subtitleJapanese: '水彩バックピースタトゥーアートワーク'
+        titleJapanese: '不動明王',
+        subtitleJapanese: '背中用図柄　水彩画'
     },
     {
         url: tattoo11,
@@ -163,10 +160,10 @@ export const pictures = [
     },
     {
         url: tattoo12,
-        title: 'name of tattoo 12',
-        subtitle: 'subtitle of tattoo 12',
-        titleJapanese: 'これは見出しの一例です',
-        subtitleJapanese: 'これは単なるテキスト例です'
+        title: 'Kiryu Kannon',
+        subtitle: 'Back design watercolor painting',
+        titleJapanese: '騎龍観音',
+        subtitleJapanese: '背中用図柄　水彩画'
     },
     {
         url: blackkoi,
@@ -175,8 +172,10 @@ export const pictures = [
     },
     {
         url: tattoo15,
-        title: 'Octopus Cover-Up',
-        titleJapanese: 'タコの隠蔽工作',
+        title: 'Octopus',
+        subtitle: 'before cover-up and after treatment',
+        titleJapanese: '蛸',
+        subtitleJapanese: 'カバーアップ前と施術後'
     },
     {
         url: tribal,
