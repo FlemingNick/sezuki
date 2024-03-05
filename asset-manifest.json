@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8974cb93.css",
-    "main.js": "/static/js/main.42f7e97b.js",
+    "main.js": "/static/js/main.6984341e.js",
     "static/js/787.f863665e.chunk.js": "/static/js/787.f863665e.chunk.js",
     "static/media/map3.jpg": "/static/media/map3.8f8df28a35be3df0ab13.jpg",
     "static/media/octo.jpg": "/static/media/octo.638869c5590fcc8270ea.jpg",
@@ -22,25 +22,23 @@
     "static/media/tattoo11.jpg": "/static/media/tattoo11.d50c9ef2c09570127c78.jpg",
     "static/media/tattoo5.jpg": "/static/media/tattoo5.9a953ba892c443e4d94e.jpg",
     "static/media/tattoo15.jpg": "/static/media/tattoo15.2fd84b8a7326e453e34b.jpg",
-    "static/media/tattoo4.jpg": "/static/media/tattoo4.7d1beb357ca2bdbaf342.jpg",
     "static/media/koi.jpg": "/static/media/koi.9428f2c65d8c3f0fd119.jpg",
     "static/media/tattoo9.jpg": "/static/media/tattoo9.7e7c7dd8d029171cdeb5.jpg",
     "static/media/tattoo8.jpg": "/static/media/tattoo8.7fe8a8372871ac0d8d7b.jpg",
     "static/media/frog.jpg": "/static/media/frog.175a51a8e50b9e207ff1.jpg",
     "static/media/frog2.jpg": "/static/media/frog2.65d0f17459e3eb1b1bfa.jpg",
     "static/media/tatto1.jpg": "/static/media/tatto1.3660ca0476999ec046d1.jpg",
-    "static/media/dragon.jpg": "/static/media/dragon.caee33cc096817230cf1.jpg",
     "static/media/bird.jpg": "/static/media/bird.3e5b752b1734b6d4067a.jpg",
     "static/media/tatto3.jpg": "/static/media/tatto3.d0ee6598c2af97cfad91.jpg",
     "static/media/bird2.jpg": "/static/media/bird2.be70d755693219f32318.jpg",
     "static/media/tattoo14.jpg": "/static/media/tattoo14.007821e152bc5599d289.jpg",
     "index.html": "/index.html",
     "main.8974cb93.css.map": "/static/css/main.8974cb93.css.map",
-    "main.42f7e97b.js.map": "/static/js/main.42f7e97b.js.map",
+    "main.6984341e.js.map": "/static/js/main.6984341e.js.map",
     "787.f863665e.chunk.js.map": "/static/js/787.f863665e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8974cb93.css",
-    "static/js/main.42f7e97b.js"
+    "static/js/main.6984341e.js"
   ]
 }
