@@ -56,11 +56,11 @@ export const pictures = [
         title: 'Nine-tailed Fox (Front)',
         titleJapanese: '九尾の狐 (表側)',
     },
-    {
-        url: tattoo4,
-        title: 'Nine-tailed Fox (Back)',
-        titleJapanese: '九尾の狐 (裏側)',
-    },
+    // {
+    //     url: tattoo4,
+    //     title: 'Nine-tailed Fox (Back)',
+    //     titleJapanese: '九尾の狐 (裏側)',
+    // },
     {
         url: tattoo5,
         title: 'Koi and Cherry Blossoms',
