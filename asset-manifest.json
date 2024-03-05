@@ -1,13 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc0ea8cf.css",
-    "main.js": "/static/js/main.f7fa65b8.js",
+    "main.css": "/static/css/main.8974cb93.css",
+    "main.js": "/static/js/main.0ccc1e03.js",
     "static/js/787.f863665e.chunk.js": "/static/js/787.f863665e.chunk.js",
-    "static/media/Oradano-mincho-GSRR.svg": "/static/media/Oradano-mincho-GSRR.78197c6ac1611e80db13.svg",
-    "static/media/Oradano-mincho-GSRR.eot": "/static/media/Oradano-mincho-GSRR.2d95ed3dc524a361bc46.eot",
-    "static/media/Oradano-mincho-GSRR.ttf": "/static/media/Oradano-mincho-GSRR.8010ee62147c946f5ad9.ttf",
-    "static/media/Oradano-mincho-GSRR.woff": "/static/media/Oradano-mincho-GSRR.23909bafa7175f442f29.woff",
-    "static/media/Oradano-mincho-GSRR.woff2": "/static/media/Oradano-mincho-GSRR.5ad4a91c46ecf13a201c.woff2",
     "static/media/map3.jpg": "/static/media/map3.8f8df28a35be3df0ab13.jpg",
     "static/media/octo.jpg": "/static/media/octo.638869c5590fcc8270ea.jpg",
     "static/media/header.jpeg": "/static/media/header.8133008005f1a60f91f1.jpeg",
@@ -40,12 +35,12 @@
     "static/media/bird2.jpg": "/static/media/bird2.be70d755693219f32318.jpg",
     "static/media/tattoo14.jpg": "/static/media/tattoo14.007821e152bc5599d289.jpg",
     "index.html": "/index.html",
-    "main.bc0ea8cf.css.map": "/static/css/main.bc0ea8cf.css.map",
-    "main.f7fa65b8.js.map": "/static/js/main.f7fa65b8.js.map",
+    "main.8974cb93.css.map": "/static/css/main.8974cb93.css.map",
+    "main.0ccc1e03.js.map": "/static/js/main.0ccc1e03.js.map",
     "787.f863665e.chunk.js.map": "/static/js/787.f863665e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc0ea8cf.css",
-    "static/js/main.f7fa65b8.js"
+    "static/css/main.8974cb93.css",
+    "static/js/main.0ccc1e03.js"
   ]
 }
