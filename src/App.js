@@ -15,6 +15,7 @@ import FAQ from './components/FAQ/FAQ';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import DataSec from './components/DataSec/DataSec';
+import { useTranslation } from "react-i18next";
 
 const Home = () => (
   <>
@@ -37,9 +38,10 @@ const Data = () => (
   </>
 )
 
-function App() {
+const App = () => {
+  const { i18n } = useTranslation();
   return (
-    <div className="App">
+    <div  className={['App', i18n.language === 'jp' ?  'japanese': ''].join(' ')}>
       <Header/>
 
       <Router>
