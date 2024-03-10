@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.8974cb93.css",
-    "main.js": "/static/js/main.6984341e.js",
+    "main.css": "/static/css/main.1bf4903d.css",
+    "main.js": "/static/js/main.aa033e1b.js",
     "static/js/787.f863665e.chunk.js": "/static/js/787.f863665e.chunk.js",
+    "static/media/HinaMincho-Regular.ttf": "/static/media/HinaMincho-Regular.98d1b5de3fcb5feb2627.ttf",
     "static/media/map3.jpg": "/static/media/map3.8f8df28a35be3df0ab13.jpg",
     "static/media/octo.jpg": "/static/media/octo.638869c5590fcc8270ea.jpg",
     "static/media/header.jpeg": "/static/media/header.8133008005f1a60f91f1.jpeg",
@@ -33,12 +34,12 @@
     "static/media/bird2.jpg": "/static/media/bird2.be70d755693219f32318.jpg",
     "static/media/tattoo14.jpg": "/static/media/tattoo14.007821e152bc5599d289.jpg",
     "index.html": "/index.html",
-    "main.8974cb93.css.map": "/static/css/main.8974cb93.css.map",
-    "main.6984341e.js.map": "/static/js/main.6984341e.js.map",
+    "main.1bf4903d.css.map": "/static/css/main.1bf4903d.css.map",
+    "main.aa033e1b.js.map": "/static/js/main.aa033e1b.js.map",
     "787.f863665e.chunk.js.map": "/static/js/787.f863665e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8974cb93.css",
-    "static/js/main.6984341e.js"
+    "static/css/main.1bf4903d.css",
+    "static/js/main.aa033e1b.js"
   ]
 }
