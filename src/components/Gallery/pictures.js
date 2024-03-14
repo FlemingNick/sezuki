@@ -46,7 +46,7 @@ export const pictures = [
     },
     {
         url: tattoo3,
-        title: 'Traditional Japanese Tattoo Dragon 7 minutes',
+        title: 'Traditional Japanese Tattoo Dragon 3/4 length',
         titleJapanese: '日本伝統刺青　龍　7分',
     },
     {
@@ -80,14 +80,14 @@ export const pictures = [
     },
     {
         url: bird,
-        title: 'White muscle immediately after treatment',
+        title: 'White outline work: immediately after treatment',
         // subtitle: 'number 1 out of 2, healed',
         titleJapanese: '白筋　施術直後',
         // subtitleJapanese: '2 人中 1 位、癒されました'
     },
     {
         url: bird2,
-        title: 'White muscle after healing',
+        title: 'White outline work: healed',
         // subtitle: 'number 2 out of 2, fresh',
         titleJapanese: '白筋　治癒後',
         // subtitleJapanese: '2 人中 2 位、新鮮'
@@ -95,7 +95,7 @@ export const pictures = [
     {
         url: paint,
         title: 'Princess Tamatori and the octopus',
-        subtitle: 'pattern for the entire back, watercolor painting',
+        subtitle: 'Design for the entire back, watercolor painting',
         titleJapanese: '玉取姫と蛸',
         subtitleJapanese: '背中一面用図柄, 水彩画'
     },
