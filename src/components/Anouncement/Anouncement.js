@@ -7,12 +7,11 @@ const Anouncement = () => {
    const { t } = useTranslation();
    
    return(
-      <section className='scroll anouncement-banner'>
-         <div>
-            +++ <span>{t("anouncement")}</span> +++ <span>{t("anouncement")}</span> +++ <span>{t("anouncement")}</span> +++ <span>{t("anouncement")}</span>
-         </div>
-         <div>
-            +++ <span>{t("anouncement")}</span> +++ <span> {t("anouncement")}</span> +++ <span>{t("anouncement")}</span> +++ <span>{t("anouncement")}</span>
+      <section className='anouncement-wrapper'>
+         <div className='announcement'>
+            <div className='announcement-message'>
+               +++ <span>{t("anouncement")}</span> +++ <span>{t("anouncement")}</span> +++ <span>{t("anouncement")}</span> +++ <span>{t("anouncement")}</span>
+            </div>
          </div>
       
       </section>
