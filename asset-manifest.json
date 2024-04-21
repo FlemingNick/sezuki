@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3b84fd1.css",
-    "main.js": "/static/js/main.71e7cef0.js",
+    "main.css": "/static/css/main.41baf914.css",
+    "main.js": "/static/js/main.e7498f0f.js",
     "static/js/787.f863665e.chunk.js": "/static/js/787.f863665e.chunk.js",
     "static/media/HinaMincho-Regular.ttf": "/static/media/HinaMincho-Regular.98d1b5de3fcb5feb2627.ttf",
     "static/media/map3.jpg": "/static/media/map3.8f8df28a35be3df0ab13.jpg",
@@ -34,12 +34,12 @@
     "static/media/bird2.jpg": "/static/media/bird2.be70d755693219f32318.jpg",
     "static/media/tattoo14.jpg": "/static/media/tattoo14.007821e152bc5599d289.jpg",
     "index.html": "/index.html",
-    "main.b3b84fd1.css.map": "/static/css/main.b3b84fd1.css.map",
-    "main.71e7cef0.js.map": "/static/js/main.71e7cef0.js.map",
+    "main.41baf914.css.map": "/static/css/main.41baf914.css.map",
+    "main.e7498f0f.js.map": "/static/js/main.e7498f0f.js.map",
     "787.f863665e.chunk.js.map": "/static/js/787.f863665e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3b84fd1.css",
-    "static/js/main.71e7cef0.js"
+    "static/css/main.41baf914.css",
+    "static/js/main.e7498f0f.js"
   ]
 }
