@@ -15,6 +15,7 @@ html{
 }
 
 .App{
+    box-sizing: border-box;
     background-color: $white;
     font-size: $font-size-m;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
