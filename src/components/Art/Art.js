@@ -19,10 +19,10 @@ const Art = () => {
                <div className='link-wrapper'>
                   <a className='external-link' href='https://sezuki.official.ec/' title='https://sezuki.official.ec/'><span>{t("art.artLink")}</span></a>
                </div>
-               <p>{t("art.paragraph3")}</p>
+               {/* <p>{t("art.paragraph3")}</p>
                <div className='link-wrapper'>
                   <a className='external-link' href='https://sezuki.official.ec/' title='https://sezuki.official.ec/'><span>{t("art.fashionLink")}</span></a>
-               </div>
+               </div> */}
                
             </div>
          </div>
