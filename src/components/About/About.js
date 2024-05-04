@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.scss';
 import { useTranslation } from "react-i18next";
+import { Link } from "react-scroll";
 
 const About = () => {
 
@@ -20,7 +21,7 @@ return(
          </p>
          
          <button className='btn'>
-            {t("contactBtn")}
+            <Link to='contact' spy={true} smooth={true} offset={-250} duration={200}><span> {t("contactBtn")}</span></Link>
          </button>
       </div>
       <div>

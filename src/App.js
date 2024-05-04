@@ -54,7 +54,7 @@ const App = () => {
       
       
       <Footer/>
-      <img className="toad" src={process.env.PUBLIC_URL + '/Toad.svg'} alt='toad in bathtub'/>
+      {/* <img className="toad" src={process.env.PUBLIC_URL + '/Toad.svg'} alt='toad in bathtub'/> */}
     </div>
   );
 }
